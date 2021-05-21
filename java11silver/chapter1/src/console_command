@@ -1,0 +1,8 @@
+プロジェクトのsrcフォルダまで移動
+cd /java11silver/chapter11/src/
+
+カレントディレクトリの一つ上（srcフォルダと同階層）のbinフォルダにソースをコンパイル
+javac -d ../bin example/Sample.java
+
+コンソールから実行
+java -cp ../bin example.Sample "hello world"
