@@ -1,0 +1,17 @@
+次のうち、javaのクラスを実行するコマンドとして、
+正しいものを選びなさい。（2つ選択）
+
+A
+javac Smple.java
+B
+java Smple
+C
+java Smple.java
+D
+javac Smple
+E
+javap Smple
+F
+jmod Smple.java
+
+B,C

@@ -1,0 +1,25 @@
+次のうち、パッケージ宣言が正しく記述されているコードを選びなさい。（1つ選択）
+
+A
+1.	import java.util.*;
+2.	package problem.code.no8;
+3.	public class Cap1_no08_A {}
+
+B
+1.	package problem.code.no8;
+2.	import java.util.*;
+3.	public class Cap1_no08_B {}
+
+C
+1.	import java.util.*;
+2.	package problem.code.no8 {
+3.		public class Cap1_no08_C {}
+4.	}
+
+D
+1.	import java.util.*;
+2.	package problem.code.no8 {
+3.		public class Cap1_no08_D {}
+4.	};
+
+B

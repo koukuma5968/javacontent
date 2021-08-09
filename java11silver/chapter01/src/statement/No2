@@ -1,0 +1,23 @@
+以下のプログラムを実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+java problem.section1.code.no2.Cap1_sec1_no02_A Hello "World"
+
+1.	package problem.section1.code.no2;
+2.
+3.	public class Cap1_sec1_no02_A {
+4.
+5.		public static void main(String[] args) {
+6.			System.out.println(args[0] + " java");
+7.		}
+8.	}
+
+A
+「Hello World」が表示される
+B
+「 java」が表示される
+C
+「Hello java」が表示される
+D
+「World java」が表示される
+
+C

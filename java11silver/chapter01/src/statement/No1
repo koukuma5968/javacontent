@@ -1,0 +1,53 @@
+次のプログラムのうち、mainメソッドとして正しく実行できるものを選びなさい。（2つ選択）
+
+A
+1.	package problem.section1.code.no1;
+2.
+3.	public class Cap1_sec1_no01_A {
+4.
+5.		public static void main(String[] args) {
+6.			System.out.println("mainA");
+7.		}
+8.	}
+
+B
+1.	package problem.section1.code.no1;
+2.
+3.	public class Cap1_sec1_no01_B {
+4.
+5.	    public static void main(String args) {
+6.	        System.out.println("mainB");
+7.	    }
+8.	}
+
+C
+1.	package problem.section1.code.no1;
+2.
+3.	public class Cap1_sec1_no01_C {
+4.
+5.	    public void main(String[] args) {
+6.	        System.out.println("mainC");
+7.	    }
+8.	}
+
+D
+1.	package problem.section1.code.no1;
+2.
+3.	public class Cap1_sec1_no01_D {
+4.
+5.	    public static void main(String... args) {
+6.	        System.out.println("mainD");
+7.	    }
+8.	}
+
+E
+1.	package problem.section1.code.no1;
+2.
+3.	public class Cap1_sec1_no01_E {
+4.
+5.	    protected static void main(String... args) {
+6.	        System.out.println("mainE");
+7.	    }
+8.	}
+
+A,D
