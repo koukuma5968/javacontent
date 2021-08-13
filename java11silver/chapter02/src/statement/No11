@@ -1,0 +1,15 @@
+次の変数宣言のうち、コンパイルエラーとならないものを選びなさい。（2つ選択）
+
+
+A
+var a = "string";
+B
+var b = {2,4};
+C
+var c;
+D
+var d = null;
+E
+var e = new HashMap<>();
+
+A,E

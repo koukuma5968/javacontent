@@ -1,0 +1,26 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no10_A {
+2.		public static void main(String[] args) {
+3.			int conut = 0;
+4.			while(conut < 10) {
+5.				conut++;
+6.				int size = conut * 10;
+7.			}
+8.			System.out.println(size);
+9.		}
+10.	}
+
+
+A
+「90」が表示される。
+B
+「10」が表示される。
+C
+「9」が表示される。
+D
+コンパイルエラーが発生する。
+E
+実行時に例外がスローされる。
+
+D

@@ -1,0 +1,14 @@
+以下の変数を代入した場合、コンパイルエラーとなるものを選びなさい。（2つ選択）
+
+1.	int a = 97;
+
+A
+byte b = a;
+B
+long c = a;
+C
+char d = a;
+D
+double e = a;
+
+A,C

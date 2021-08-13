@@ -1,0 +1,29 @@
+次のプログラムを実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no06_A {
+2.
+3.		private int value;
+4.
+5.		public static void main(String[] args) {
+6.			int value = 10;
+7.			Cap2_no06_A a = new Cap2_no06_A();
+8.			a.print(value);
+9.		}
+10.
+11.		private void print(int value) {
+12.			System.out.println(this.value);
+13.		}
+14.	}
+
+A
+「10」が表示される。
+B
+コンパイルエラーが発生する。
+C
+「null」が表示される。
+D
+「0」が表示される。
+E
+実行時に例外がスローされる。
+
+D

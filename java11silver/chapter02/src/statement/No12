@@ -1,0 +1,25 @@
+次のプログラムをコンパイル、実行したとき結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no12_A {
+2.		String value = "field";
+3.		public static void main(String[] args) {
+4.			String value = "local";
+5.			print(value);
+6.		}
+7.		private static void print(var value) {
+8.			System.out.println(value);
+9.		}
+10.	}
+
+
+A
+「var」が表示される。
+B
+「field」が表示される。
+C
+実行時に例外がスローされる。
+D
+コンパイルエラーが発生する。
+
+D

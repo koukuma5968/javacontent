@@ -1,0 +1,43 @@
+次のプログラムを実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no09_A {
+2.		public static void main(String[] args) {
+3.			Cap2_no09_D b = new Cap2_no09_B();
+4.			b = new Cap2_no09_C();
+5.			b.print();
+6.		}
+7.	}
+
+1.	public class Cap2_no09_B extends Cap2_no09_D {
+2.		@Override
+3.		public void print() {
+4.			System.out.println("B");
+5.		}
+6.	}
+
+1.	public class Cap2_no09_C extends Cap2_no09_D {
+2.		@Override
+3.		public void print() {
+4.			System.out.println("C");
+5.		}
+6.	}
+
+1.	public class Cap2_no09_D {
+2.		public void print() {
+3.			System.out.println("D");
+4.		}
+5.	}
+
+
+A
+「B」が表示される。
+B
+「C」が表示される。
+C
+「D」が表示される。
+D
+コンパイルエラーが発生する。
+E
+実行時に例外がスローされる。
+
+C

@@ -1,0 +1,36 @@
+次のプログラムを実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no07_A {
+2.
+3.		public int value = 20;
+4.
+5.		public static void main(String[] args) {
+6.			int value = 10;
+7.			Cap2_no07_B b = new Cap2_no07_B();
+8.			b.print(value);
+9.		}
+10.	}
+
+1.	public class Cap2_no07_B extends Cap2_no07_A {
+2.
+3.		int value = 30;
+4.
+5.		protected void print(int value) {
+6.			System.out.println(super.value);
+7.		}
+8.
+9.	}
+
+
+A
+「30」が表示される。
+B
+「10」が表示される。
+C
+「20」が表示される。
+D
+コンパイルエラーが発生する。
+E
+実行時に例外がスローされる。
+
+C

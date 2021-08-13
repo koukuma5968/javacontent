@@ -1,0 +1,33 @@
+次のプログラムを実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no08_A {
+2.		public static void main(String[] args) {
+3.			Cap2_no08_B b = new Cap2_no08_B("A");
+4.			b.print();
+5.		}
+6.	}
+
+1.	public class Cap2_no08_B {
+2.		private String value = "B";
+3.		public Cap2_no08_B(String value) {
+4.			this.value = value;
+5.		}
+6.		protected void print() {
+7.			System.out.println(value);
+8.		}
+9.
+10.	}
+
+
+A
+「B」が表示される。
+B
+「A」が表示される。
+C
+「AB」が表示される。
+D
+コンパイルエラーが発生する。
+E
+実行時に例外がスローされる。
+
+B
