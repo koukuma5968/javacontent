@@ -1,0 +1,25 @@
+次のプログラムのうちコンパイル、実行したときの結果として
+ただしいものを選びなさい。（1つ選択）
+
+1.  public class Cap2_no30_A {
+2.      public static void main(String[] args) {
+3.          StringBuilder bl = new StringBuilder("abdgfe");
+4.          bl.reverse();
+5.          bl.replace(1, 3, "h");
+6.          System.out.println(bl);
+7.      }
+8.  }
+
+
+A
+「abhgfe」が表示される。
+B
+「efgha」が表示される。
+C
+「ehdba」が表示される。
+D
+実行時に例外がスローされる。
+E
+コンパイルエラーが発生する。
+
+C

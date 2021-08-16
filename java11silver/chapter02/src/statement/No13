@@ -1,12 +1,12 @@
-次の変数宣言のうち、コンパイルエラーとなるものを選びなさい。（1つ選択）
+次の変数宣言のうち、正しいものを選びなさい。（2つ選択）
 
 A
-「var」が表示される。
+String a = "char";
 B
-「field」が表示される。
+String b = new String();
 C
-実行時に例外がスローされる。
+String c = 'c';
 D
-コンパイルエラーが発生する。
+String d = String.valueOf('string');
 
-D
+A,B

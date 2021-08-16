@@ -1,0 +1,25 @@
+次のプログラムのうちコンパイル、実行したときの結果として
+ただしいものを選びなさい。（1つ選択）
+
+1.  public class Cap2_no16_A {
+2.      public static void main(String[] args) {
+3.          String a = "xyz";
+4.          System.out.println(a.indexOf('y'));
+5.      }
+6.  }
+
+
+A
+「2」が表示される。
+B
+「-1」が表示される。
+C
+「1」が表示される。
+D
+nullが表示される。
+E
+コンパイルエラーが発生する。
+F
+実行時に例外がスローされる。
+
+C

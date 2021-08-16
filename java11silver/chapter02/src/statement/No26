@@ -1,0 +1,23 @@
+次のプログラムのうちコンパイル、実行したときの結果として
+ただしいものを選びなさい。（1つ選択）
+
+1.  public class Cap2_no26_A {
+2.      public static void main(String[] args) {
+3.          String a = "Hello Java";
+4.          System.out.println(a.endsWith("a"));
+5.      }
+6.  }
+
+
+A
+「false」が表示される。
+B
+「a」が表示される。
+C
+「true」が表示される。
+D
+実行時に例外がスローされる。
+E
+コンパイルエラーが発生する。
+
+C

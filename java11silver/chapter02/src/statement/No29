@@ -1,0 +1,28 @@
+次のプログラムのうちコンパイル、実行したときの結果として
+ただしいものを選びなさい。（1つ選択）
+
+1.  public class Cap2_no29_A {
+2.      public static void main(String[] args) {
+3.          StringBuilder bl = new StringBuilder();
+4.          bl.append("ab");
+5.          bl.append('c');
+6.          bl.append("\r\n");
+7.          bl.append("def");
+8.          System.out.println(bl);
+9.      }
+10. }
+
+
+A
+「abc\r\ndef」が表示される。
+B
+「abc
+def」が表示される。
+C
+「ab'c'rndef」が表示される。
+D
+実行時に例外がスローされる。
+E
+コンパイルエラーが発生する。
+
+B
