@@ -3,11 +3,13 @@
   <classpathentry kind="src" output="chapter01/bin" path="chapter01/src"/>
   <classpathentry kind="src" output="chapter02/bin" path="chapter02/src"/>
   <classpathentry kind="src" output="chapter03/bin" path="chapter03/src"/>
-    <classpathentry kind="src" output="chapter04/bin" path="chapter04/src"/>
+  <classpathentry kind="src" output="chapter04/bin" path="chapter04/src"/>
+  <classpathentry kind="src" output="chapter05/bin" path="chapter05/src"/>
+  <classpathentry kind="src" output="chapter06/bin" path="chapter06/src"/>
+  <classpathentry kind="src" output="chapter07/bin" path="chapter07/src"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java11">
     <attributes>
       <attribute name="module" value="true"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="output" path="bin"/>
 </classpath>
