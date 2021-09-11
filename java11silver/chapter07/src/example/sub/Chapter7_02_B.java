@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Chapter7_02_B {
     public double cal(double balance, double amount, boolean transfer) {
         double cal;
-        // サブクラスを利用
+        // インナークラスを利用
         Chapter7_02_B2 b = new Chapter7_02_B2();
         // 同一パッケージ内からの利用
         Chapter7_02_A a = new Chapter7_02_A();
