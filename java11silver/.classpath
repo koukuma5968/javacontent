@@ -9,6 +9,7 @@
   <classpathentry kind="src" output="chapter07/bin" path="chapter07/src"/>
   <classpathentry kind="src" output="chapter08/bin" path="chapter08/src"/>
   <classpathentry kind="src" output="chapter09/bin" path="chapter09/src"/>
+  <classpathentry kind="src" output="chapter10/bin" path="chapter10/src"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java11">
     <attributes>
       <attribute name="module" value="true"/>
