@@ -1,0 +1,54 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public enum Cap3_no13_ENUM {
+2.		A,
+3.		B,
+4.		C,
+5.		D;
+6.	}
+
+1.	public class Cap3_no13_A {
+2.
+3.	    public static void main(String[] args) {
+4.	        chk(Cap3_no13_ENUM.B);
+5.	    }
+6.	    private static void chk(Cap3_no13_ENUM e) {
+7.	    	switch (e) {
+8.	    		case A :
+9.	    	        System.out.println("A");
+10.	    	    	return;
+11.	    		case B :
+12.	    	        System.out.println("B");
+13.	    	        break;
+14.	    		case C :
+15.	    	        System.out.println("C");
+16.	    	    	return;
+17.	    		case D :
+18.	    	        System.out.println("D");
+19.	   			default :
+20.	    	        System.out.println("E");
+21.	    	    	return;
+22.	    	}
+23.	    }
+24.	}
+
+
+A
+「A」「B」 が表示される。
+
+B
+「B」「C」が表示される。
+
+C
+「E」が表示される。
+
+D
+「B」が表示される。
+
+E
+実行時に例外がスローされる。
+
+F
+コンパイルエラーが発生する。
+
+D

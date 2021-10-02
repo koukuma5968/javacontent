@@ -1,0 +1,35 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no09_A {
+2.
+3.	    public static void main(String[] args) {
+4.	        String str = "java";
+5.	        switch (str) {
+6.		        case "java" :
+7.		            System.out.println("java");
+8.		        	break;
+9.		        case "C#" :
+10.		            System.out.println("C#");
+11.	        	default :
+12.		            System.out.println("Other");
+13.	        }
+14.	    }
+15.	}
+
+
+A
+「java」 が表示される。
+
+B
+「C#」が表示される。
+
+C
+「Other」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+A

@@ -1,0 +1,32 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no20_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	String[][] alpha = {{"A","B", "C", "D"},
+5.	    						{"a","b", "c", "d"}};
+6.	    	for (String[] a : alpha) {
+7.	    		for (String b : a) {
+8.	    			if ("C".equals(b.toUpperCase()) || "b".equals(b)) continue;
+9.	                System.out.print(b);
+10.	    		}
+11.	    	}
+12.	    }
+13.	}
+
+A
+「ABDacd」 が表示される。
+
+B
+「ABDad」 が表示される。
+
+C
+「ABa」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+B

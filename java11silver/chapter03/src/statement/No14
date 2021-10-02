@@ -1,0 +1,37 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no14_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Iterator<Integer> list = Arrays.asList(10, 20, 50, 30).iterator();
+5.	    	while (list.hasNext()) {
+6.	    		int l = list.next();
+7.	    		if (50 > l) {
+8.	    			break;
+9.	    		}
+10.	            System.out.println(l);
+11.	    	}
+12.	    }
+13.	}
+
+
+
+A
+「10」「20」「30」 が表示される。
+
+B
+「10」「20」が表示される。
+
+C
+「10」「20」「50」が表示される。
+
+D
+何も表示されない。
+
+E
+実行時に例外がスローされる。
+
+F
+コンパイルエラーが発生する。
+
+D

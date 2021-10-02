@@ -1,0 +1,45 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no18_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Map<String, List<String>> animal = new HashMap<String, List<String>>();
+5.	    	animal.put("dog", Arrays.asList("poodle", "pug", "shiba"));
+6.	    	animal.put("cat", Arrays.asList("siam", "ragdoll", "persia"));
+7.	    	animal.put("hamster", Arrays.asList("syrian", "jenggalian", "roborovski"));
+8.	    	Iterator<Entry<String, List<String>>> entry =  animal.entrySet().iterator();
+9.	    	while (entry.hasNext()) {
+10.	    		Entry<String, List<String>> list = entry.next();
+11.	            System.out.print(list.getKey());
+12.	            System.out.print(" : ");
+13.	    		for (String ani : list.getValue()) {
+14.	                System.out.print(ani);
+15.	                System.out.print(" ");
+16.	    		}
+17.	            System.out.println();
+18.	    	}
+19.	    }
+20.	}
+
+A
+「dog : cat : hamster : 」
+「poodle pug shiba siam ragdoll persia syrian jenggalian roborovski 」
+ が表示される。
+
+B
+「hamster : syrian jenggalian roborovski 」
+「cat : siam ragdoll persia 」
+「dog : poodle pug shiba 」
+ が表示される。
+
+C
+「hamster : cat : dog : poodle pug shiba siam ragdoll persia syrian jenggalian roborovski 」
+が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+B

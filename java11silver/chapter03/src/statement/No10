@@ -1,0 +1,41 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no10_A {
+2.
+3.	    public static void main(String[] args) {
+4.	        int a = 10;
+5.	        switch (a % 2) {
+6.		        case 2 :
+7.		            System.out.println("A");
+8.		        	break;
+9.		        case 0 :
+10.		            System.out.println("B");
+11.		        case 1 :
+12.		            System.out.println("C");
+13.	        	default :
+14.		            System.out.println("D");
+15.		        	break;
+16.	        }
+17.	    }
+18.	}
+
+
+A
+「A」 が表示される。
+
+B
+「B」「C」が表示される。
+
+C
+「B」「D」が表示される。
+
+D
+「B」「C」「D」が表示される。
+
+E
+実行時に例外がスローされる。
+
+F
+コンパイルエラーが発生する。
+
+D

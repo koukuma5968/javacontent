@@ -1,23 +1,22 @@
 以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
 
-1.	public class Cap3_no01_A {
+1.	public class Cap3_no02_A {
 2.
 3.	    public static void main(String[] args) {
-4.	        int a = 4;
-5.	        int b = a += -10;
-6.	        System.out.println(a + b);
-7.	    }
-8.	}
+4.	        int a = 5 - 1 * 2;
+5.	        System.out.println(a--);
+6.	    }
+7.	}
 
 
 A
-「6」 が表示される。
+「8」 が表示される。
 
 B
-「-12」が表示される。
+「2」が表示される。
 
 C
-「-6」が表示される。
+「3」が表示される。
 
 D
 実行時に例外がスローされる。
@@ -25,4 +24,4 @@ D
 E
 コンパイルエラーが発生する。
 
-B
+C

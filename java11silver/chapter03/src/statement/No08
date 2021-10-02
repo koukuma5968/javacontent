@@ -1,0 +1,60 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no08_B {
+2.
+3.		private Object a;
+4.
+5.		public void setValue(Object a) {
+6.	        this.a = a;
+7.		}
+8.		public Object getValue() {
+9.			return a;
+10.		}
+11.	}
+
+1.	public class Cap3_no08_C {
+2.
+3.		private Object b;
+4.
+5.		public void setValue(Object b) {
+6.	        this.b = b;
+7.		}
+8.		public Object getValue() {
+9.			return b;
+10.		}
+11.	}
+
+1.	public class Cap3_no08_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Cap3_no08_B b = new Cap3_no08_B();
+5.	    	b.setValue("String");
+6.	    	Cap3_no08_C c = new Cap3_no08_C();
+7.	    	c.setValue(1);
+8.	        if (b.getValue() instanceof Integer) {
+9.	            System.out.println(b.getValue());
+10.	        } else if (c.getValue() instanceof Boolean) {
+11.	            System.out.println(Boolean.TRUE);
+12.	        } else if (c.getValue() instanceof Integer) {
+13.	            System.out.println(c.getValue());
+14.	        }
+15.	    }
+16.	}
+
+
+A
+「String」 が表示される。
+
+B
+「true」が表示される。
+
+C
+「1」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+C

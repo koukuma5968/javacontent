@@ -1,0 +1,29 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no06_A {
+2.
+3.	    public static void main(String[] args) {
+4.	        int a = 10;
+5.	        long b = 15;
+6.	        if (a < b / 2) {
+7.	            System.out.println(true);
+8.	        } else {
+9.	            System.out.println(false);
+10.	        }
+11.	    }
+12.	}
+
+
+A
+「true」 が表示される。
+
+B
+「false」が表示される。
+
+C
+実行時に例外がスローされる。
+
+D
+コンパイルエラーが発生する。
+
+B

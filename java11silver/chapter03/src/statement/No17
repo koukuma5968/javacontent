@@ -1,0 +1,44 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public enum Cap3_no17_ENUM {
+2.		ONE(true),
+3.		TWO(false),
+4.		THREE(true),
+5.		FOUR(false);
+6.		private Cap3_no17_ENUM(boolean b) {
+7.			this.b = b;
+8.		}
+9.		private boolean b;
+10.		public boolean isB() {
+11.			return b;
+12.		}
+13.	}
+
+1.	public class Cap3_no17_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	for (Cap3_no17_ENUM em : Cap3_no17_ENUM.values()) {
+5.	    		if (!em.isB()) {
+6.	    			continue;
+7.	    		}
+8.	        	System.out.println(em.name());
+9.	    	}
+10.	    }
+11.	}
+
+A
+「20」 が表示される。
+
+B
+「30」 が表示される。
+
+C
+「25」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+A
