@@ -1,0 +1,33 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap4_no05_A {
+2.
+3.		public static void main(String[] args) {
+4.			String[] a = new String[2];
+5.			int i = 1;
+6.			while (i <= 2) {
+7.				a[i] = String.valueOf(i);
+8.				i++;
+9.			}
+10.			System.out.println(a[1]);
+11.		}
+12.	}
+
+
+A
+「1」が表示される。
+
+B
+「2」が表示される。
+
+C
+空が表示される。
+
+
+D
+実行時に例外が発生する
+
+E
+コンパイルエラーが発生する。
+
+D

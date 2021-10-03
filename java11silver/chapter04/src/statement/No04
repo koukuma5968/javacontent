@@ -1,0 +1,32 @@
+配列の宣言として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap4_no04_A {
+2.
+3.		public static void main(String[] args) {
+4.			String[] a;
+5.			int b[];
+6.			long[] c[];
+7.			Object d[][];
+8.		}
+9.	}
+
+
+A
+4行目のみ正しい。
+
+B
+5行目のみ正しい。
+
+C
+6行目のみ正しい。
+
+D
+7行目のみ正しい。
+
+E
+すべて正しい。
+
+F
+すべて誤り。
+
+E

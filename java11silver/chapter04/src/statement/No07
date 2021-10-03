@@ -1,0 +1,29 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap4_no07_A {
+2.
+3.		public static void main(String[] args) {
+4.			char[][] chars = {{'a','b','c','d'},{'A','B'}};
+5.			for (char c: chars) {
+6.				System.out.print(c);
+7.			}
+8.		}
+9.	}
+
+
+A
+「abcdAB」が表示される。
+
+B
+「abcd」が表示される。
+
+C
+「AB」が表示される。
+
+D
+実行時に例外が発生する
+
+E
+コンパイルエラーが発生する。
+
+E

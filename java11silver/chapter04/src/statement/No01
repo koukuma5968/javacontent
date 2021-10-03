@@ -1,0 +1,27 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap4_no01_A {
+2.
+3.	    public static void main(String[] args) {
+4.	        int[] a = new int[10];
+5.	        System.out.println(a.length);
+6.	    }
+7.	}
+
+
+A
+「0」 が表示される。
+
+B
+「10」が表示される。
+
+C
+nullが表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+B

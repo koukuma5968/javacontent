@@ -1,0 +1,42 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap4_no09_B extends Cap4_no09_D {}
+
+1.	public class Cap4_no09_C extends Cap4_no09_D {}
+
+1.	public class Cap4_no09_D {}
+
+1.	public class Cap4_no09_A {
+2.
+3.		public static void main(String[] args) {
+4.			Cap4_no09_D[] arrayA = {new Cap4_no09_D()};
+5.			Cap4_no09_D[] arrayB = {new Cap4_no09_B(),new Cap4_no09_D()};
+6.			Cap4_no09_D[] arrayC = {new Cap4_no09_C(),new Cap4_no09_B()};
+7.			Cap4_no09_C[] arrayD = {new Cap4_no09_C(),new Cap4_no09_D()};
+8.			Cap4_no09_B[] arrayD = {(Cap4_no09_B) new Cap4_no09_D(),new Cap4_no09_B(),new Cap4_no09_B()};
+9.		}
+10.	}
+
+
+A
+4行目でコンパイルエラーが発生する
+
+B
+5行目でコンパイルエラーが発生する
+
+C
+6行目でコンパイルエラーが発生する
+
+D
+7行目でコンパイルエラーが発生する
+
+E
+8行目でコンパイルエラーが発生する
+
+F
+すべてコンパイルエラーとなる・
+
+G
+コンパイルエラーは発生しない。
+
+7

@@ -1,0 +1,33 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap4_no10_A {
+2.
+3.		public static void main(String[] args) {
+4.			String[][] strsA = {{"A","B"},null,{"D","F"}};
+5.			String[] strB = strsA[0].clone();
+6.			for (String str : strB) {
+7.				System.out.print(str);
+8.			}
+9.		}
+10.	}
+
+
+A
+「ABnullDF」が表示される。
+
+B
+「null」が表示される。
+
+C
+「AB」が表示される。
+
+D
+「DF」が表示される。
+
+E
+実行時に例外が発生する
+
+F
+コンパイルエラーが発生する。
+
+C
