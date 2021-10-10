@@ -1,0 +1,19 @@
+コンストラクタ定義として、誤っているものを選びなさい。（2つ選択）
+
+
+A
+public Cap6_no02_A() {}
+
+B
+private Cap6_no02_A(String str) {}
+
+C
+Cap6_no02_A(int... a) {return;}
+
+D
+public void Cap6_no02_A() {};
+
+E
+protected final Cap6_no02_A(String... str) {}
+
+D,E

@@ -1,0 +1,42 @@
+以下のプログラムを実行した場合、Cap6_no05_Aクラスの何行目でコンパイルエラーとなるか、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap6_no05_B {
+2.
+3.		public static void testA() {}
+4.		public void testB() {}
+5.	}
+
+1.	public class Cap6_no05_A {
+2.
+3.		public static void main(String[] args) {
+4.			Cap6_no05_A.testA();
+5.			new Cap6_no05_A().testB();
+6.		}
+7.
+8.		private static void testA() {
+9.			testB();
+10.		}
+11.		public void testB() {
+12.			new Cap6_no05_B().testA();
+13.		}
+14.	}
+
+
+A
+4行目でコンパイルエラーとなる。
+
+B
+5行目でコンパイルエラーとなる。
+
+C
+9行目でコンパイルエラーとなる。
+
+D
+12行目でコンパイルエラーとなる。
+
+E
+コンパイルエラーとはならない。
+
+
+C

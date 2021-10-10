@@ -1,0 +1,25 @@
+以下のクラスのメソッドのオーバーロードメソッドとして、
+正しいものものを選びなさい。（2つ選択）
+
+1.	public class Cap6_no03_A {
+2.
+3.		public void test(String str) {}
+4.	}
+
+
+A
+public void test() {}
+
+B
+public String test(String[] str) {return "";}
+
+C
+protected void test(int num) {}
+
+D
+public void test(String str, int num) {}
+
+E
+上記すべてのメソッド
+
+E

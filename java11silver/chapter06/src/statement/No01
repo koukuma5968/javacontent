@@ -1,0 +1,19 @@
+メソッド定義として、誤っているものを選びなさい。（1つ選択）
+
+
+A
+public static void main(String args[]) {}
+
+B
+private String main() {return "";}
+
+C
+void test(int... a) {return;}
+
+D
+public static final void test() {};
+
+E
+public value(String str) {}
+
+E

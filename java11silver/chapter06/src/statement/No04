@@ -1,0 +1,31 @@
+以下のプログラムを実行した場合、以下のコードから誤っているものを選びなさい。（3つ選択）
+
+1.	public class Cap6_no04_B {
+2.		// insert code
+3.	}
+
+1.	public class Cap6_no04_A {
+2.
+3.		public static void main(String[] args) {
+4.			System.out.print(Cap6_no04_B.str);
+5.		}
+6.	}
+
+
+A
+public String str;
+
+B
+privat static String str;
+
+C
+protected static int str;
+
+D
+final boolean str = true;
+
+E
+public static final String str = "str";
+
+
+A,B,D
