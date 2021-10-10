@@ -1,0 +1,23 @@
+次のソースのうち、クラス定義として誤っているものを選びなさい（3つ選択）
+※Cap5_no06_ifはインターフェースとする。
+
+A
+class Cap5_no06_A {}
+
+B
+abstract class Cap5_no06_B extends Cap5_no06_A {}
+
+C
+private final class Cap5_no06_C {}
+
+D
+public abstract Cap5_no06_D implements Cap5_no06_if{}
+
+E
+public final class Cap5_no06_E implements Cap5_no06_if{}
+
+F
+class Cap5_no06_F extends Cap5_no06_if{}
+
+C,D,F
+

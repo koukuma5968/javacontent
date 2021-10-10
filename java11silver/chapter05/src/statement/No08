@@ -1,0 +1,33 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no08_B {
+2.		public static String str = "C";
+3.	}
+
+1.	public class Cap5_no08_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Cap5_no08_B a = new Cap5_no08_B();
+5.	    	a.str = "A";
+6.	    	Cap5_no08_B b = new Cap5_no08_B();
+7.	    	b.str = "B";
+8.	    	System.out.println(Cap5_no08_B.str);
+9.	    }
+10.	}
+
+
+A
+「C」が表示される。
+
+B
+「A」が表示される。
+
+C
+「B」が表示される。
+
+D
+「CAB」が表示される。
+
+
+C
+

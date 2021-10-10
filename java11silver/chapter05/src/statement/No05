@@ -1,0 +1,45 @@
+Cap5_no05_Aの6行目のtestメソッド終了したときにガベージコレクションの対象となるインスタンスがどれか、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no05_B {
+2.		public static String hello = "hello";
+3.		private String world;
+4.		public String getWorld() {
+5.			return world;
+6.		}
+7.		public void setWorld(String world) {
+8.			this.world = world;
+9.		}
+10.	}
+
+1.	public class Cap5_no05_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Cap5_no05_B b = new Cap5_no05_B();
+5.	    	b.setWorld("world");
+6.	    	test(b);
+7.	    	// more code;
+8.	    }
+9.
+10.	    private static void test(Cap5_no05_B b) {
+11.	    	b = new Cap5_no05_B();
+12.	    	b.setWorld("java");
+13.	    	Cap5_no05_B.hello = null;
+14.	    }
+15.	}
+
+
+A
+Cap5_no05_Aの4行目で生成したインスタンスのみ対象となる。
+
+B
+Cap5_no05_Aの11行目で生成したインスタンスのみ対象となる。
+
+C
+Cap5_no05_Aの4行目で生成したインスタンス、
+Cap5_no05_Bの2行目のメンバ変数が対象となる。
+
+D
+すべてのインスタンスが対象となる。
+
+A

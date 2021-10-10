@@ -1,0 +1,33 @@
+コンソールに「hello」と出力する場合、「insert code」に入るコードとして、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no03_B {
+2.		public String str = "hello";
+3.		public void print(String str) {
+4.	        System.out.println(str);
+5.		}
+6.	}
+
+1.	public class Cap5_no03_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Cap5_no03_B Cap5_no03_b = new Cap5_no03_B();
+5.	    	// insert code
+6.	    }
+7.	}
+
+
+A
+Cap5_no03_B.print("hello");
+
+B
+Cap5_no03_b.print();
+
+C
+Cap5_no03_b.str;
+
+D
+Cap5_no03_b.print("hello");
+
+
+D

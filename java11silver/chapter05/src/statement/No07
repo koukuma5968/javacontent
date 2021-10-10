@@ -1,0 +1,35 @@
+Cap5_no07_Bのフィールド変数として定義した場合、
+Cap5_no07_Aクラスから参照出来ないものを選びなさい（1つ選択）
+
+1.	package problem.code.no07;
+2.
+3.	public class Cap5_no07_B {
+4.		// insert code
+5.	}
+
+1.	package problem.code.no07;
+2.
+3.	public class Cap5_no07_A {
+4.
+5.	    public static void main(String[] args) {
+6.	    	Cap5_no07_B a = new Cap5_no07_B();
+7.	    	a.str = "A";
+8.	    }
+9.	}
+
+
+A
+public String str;
+
+B
+private String str;
+
+C
+protected String str;
+
+D
+String str;
+
+
+B
+

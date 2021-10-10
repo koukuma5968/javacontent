@@ -1,0 +1,35 @@
+以下のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no02_B {
+2.		public int num;
+3.		public void print() {
+4.	        System.out.println(num);
+5.		}
+6.	}
+
+1.	public class Cap5_no02_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Cap5_no02_B a = new Cap5_no02_B();
+5.	    	a.num = 5;
+6.	    	a.print();
+7.	    }
+8.	}
+
+
+A
+「5」 が表示される。
+
+B
+「0」が表示される。
+
+C
+nullが表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーが発生する。
+
+A

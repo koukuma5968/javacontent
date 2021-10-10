@@ -1,0 +1,36 @@
+7行目のtestメソッド終了したときにガベージコレクションの対象となるインスタンスがどれか、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no04_A {
+2.
+3.	    public static void main(String[] args) {
+4.	    	Cap5_no04_A ob = new Cap5_no04_A();
+5.	    	String a = "a";
+6.	    	String b = a;
+7.	    	ob.test(a);
+8.	    	// more code
+9.	    }
+10.
+11.	    private void test(String str) {
+12.	    	str = null;
+13.	    	String c = "c";
+14.	    }
+15.	}
+
+
+A
+5行目の変数「a」のインスタンスのみ対象となる。
+
+B
+6行目の変数「b」のインスタンスのみ対象となる。
+
+C
+6行目の変数「b」、13行目の変数「c」のインスタンスが対象となる。
+
+D
+5行目の変数「a」、13行目の変数「c」のインスタンスが対象となる。
+
+E
+変数「a」「b」「c」すべてが対象となる。
+
+E
