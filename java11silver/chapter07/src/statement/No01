@@ -1,0 +1,49 @@
+以下のクラスにアクセスすることの出来る、正しいコードを選びなさい。（3つ選択）
+
+1.	package problem.code.no01;
+2.	class Cap7_no01_A_sub {}
+
+
+A
+package problem.code.no01;
+public class Cap7_no01_A {
+	public void test() {
+		new Cap7_no01_A_sub();
+	}
+}
+
+B
+package problem.code.no01;
+public class Cap7_no01_B {
+	public void test() {
+		new Cap7_no01_A_sub();
+	}
+}
+
+C
+public final class Cap7_no01_C {
+	public void test() {
+		new Cap7_no01_A_sub();
+	}
+}
+
+D
+package problem.code.no01;
+public class Cap7_no01_B {
+	protected class Cap7_no01_B_sub {
+		public void test() {
+			new Cap7_no01_A_sub();
+		}
+	}
+}
+
+E
+public final class Cap7_no01_C {
+	private class Cap7_no01_C_sub {
+		public void test() {
+			new Cap7_no01_A_sub();
+		}
+	}
+}
+
+A,B,D

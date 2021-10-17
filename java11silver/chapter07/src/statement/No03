@@ -1,0 +1,29 @@
+以下のクラスにコンパイルし実行した場合、コンパイルエラーとならないアクセス修飾子を選びなさい。（1つ選択）
+
+1.	package problem.code.no03;
+2.	//inset class Cap7_no03_A {}
+
+1.	package problem.code.no03.child;
+2.
+3.	import problem.code.no03.Cap7_no03_A;
+4.
+5.	public class Cap7_no03_B {
+6.		public void test() {
+7.			new Cap7_no03_A();
+8.		}
+9.	}
+
+
+A
+なし(pakage private)
+
+B
+public
+
+C
+private
+
+D
+protected
+
+B
