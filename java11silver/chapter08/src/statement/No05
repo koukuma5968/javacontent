@@ -1,0 +1,55 @@
+次のプログラムをコンパイル、実行した時の結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap8_no05_Super {
+2.
+3.		public void print(int num) {
+4.			System.out.println("num=" + num);
+5.		}
+6.
+7.		public void print(String str) {
+8.			System.out.println("String=" + str);
+9.		}
+10.	}
+
+1.	public class Cap8_no05_subA extends Cap8_no05_Super {
+2.
+3.		public void print(int num) {
+4.			super.print(num + 10);
+5.		}
+6.
+7.	}
+
+1.	public class Cap8_no05_subB extends Cap8_no05_subA {
+2.
+3.		public void print(String str) {
+4.			super.print("B_" + str);
+5.		}
+6.
+7.	}
+
+1.	public class Cap8_no05_A {
+2.
+3.		public static void main(String[] args) {
+4.			Cap8_no05_Super obA = new Cap8_no05_subA();
+5.			obA = new Cap8_no05_subB();
+6.			obA.print(10);
+7.		}
+8.	}
+
+A
+「num=10」が表示される。
+
+B
+「String=10」が表示される。
+
+C
+「num=20」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーとなる。
+
+C

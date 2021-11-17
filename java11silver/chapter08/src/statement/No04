@@ -1,0 +1,56 @@
+次のプログラムをコンパイル、実行した時の結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap8_no04_Super {
+2.
+3.		private int num;
+4.
+5.		public int getNum() {
+6.			return num;
+7.		}
+8.
+9.		public void addNum(int num) {
+10.			this.num += num;
+11.		}
+12.	}
+
+1.	public class Cap8_no04_sub extends Cap8_no04_Super {
+2.
+3.		private int num;
+4.
+5.		public int getNum() {
+6.			return num;
+7.		}
+8.
+9.		public void add(int num) {
+10.			super.addNum(num);
+11.		}
+12.
+13.	}
+
+1.	public class Cap8_no04_A {
+2.
+3.		public static void main(String[] args) {
+4.			Cap8_no04_Super obA = new Cap8_no04_sub();
+5.			obA.addNum(1);
+6.			System.out.println(obA.getNum());
+7.		}
+8.	}
+
+
+A
+「0」が表示される。
+
+B
+「1」が表示される。
+
+C
+「null」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーとなる。
+
+A
