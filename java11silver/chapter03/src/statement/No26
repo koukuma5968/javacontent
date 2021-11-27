@@ -1,0 +1,36 @@
+次の繰り返し処理のコードを同じ結果となるfor文を選びなさい。（1つ選択）
+
+1.	public class Cap3_no26 {
+2.		public static void main(String[] args) {
+3.			int x = 0;
+4.			while(x < 10) {
+5.				System.out.print(x++);
+6.			}
+7.		}
+8.	}
+
+A
+for (int a = 0; a < 10;) {
+	System.out.print(a);
+	a++;
+}
+
+B
+int b = 0;
+for (; b < 10;) {
+	System.out.print(++b);
+}
+
+C
+for (int d = 0; d < 10; d++) {
+	System.out.print(d++);
+}
+
+D
+int c = 0;
+for (;;c++) {
+	System.out.print(c);
+	if (c==10) break;
+}
+
+A

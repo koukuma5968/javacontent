@@ -1,0 +1,39 @@
+次のプログラムをコンパイル、実行した時の結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public abstract class Cap8_no09_abs {
+2.		public void test() {
+3.			System.out.print("abs");
+4.		}
+5.	}
+
+1.	public class Cap8_no09_subA extends Cap8_no09_abs {
+2.		@Override
+3.		public void test() {
+4.			System.out.print("sub");
+5.		}
+6.	}
+
+1.	public class Cap8_no09_A {
+2.		public static void main(String[] args) {
+3.			Cap8_no09_subA a = new Cap8_no09_abs();
+4.			a.test();
+5.		}
+6.	}
+
+A
+「sub」が表示される。
+
+B
+「abs」が表示される。
+
+C
+「subabs」が表示される。
+
+D
+実行時に例外がスローされる。
+
+E
+コンパイルエラーとなる。
+
+E

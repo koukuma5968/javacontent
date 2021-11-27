@@ -1,0 +1,25 @@
+次のプログラムを次のコマンドで、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+>java Cap10_no09
+
+1.	public class Cap10_no09 {
+2.		public static void main(String[] args) {
+3.			System.out.println(args[0].length());
+4.		}
+5.	}
+
+
+A
+「null」と表示される
+
+B
+「0」と表示される
+
+C
+ArrayIndexOutOfBoundsException
+
+D
+NullPointerException
+
+C

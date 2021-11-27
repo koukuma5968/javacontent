@@ -1,0 +1,35 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.io.FileInputStream;
+2.	import java.io.FileNotFoundException;
+3.
+4.	public class Cap10_no10 {
+5.		public static void main(String[] args) {
+6.			try (FileInputStream is = new FileInputStream("file.txt")) {
+7.				throw new FileNotFoundException();
+8.			} catch (Exception e) {
+9.				System.out.println("readerror");
+10.			} finally {
+11.				System.out.println("close");
+12.			}
+13.		}
+14.	}
+
+
+A
+「close」と表示される
+
+B
+「readerror」と表示される
+
+C
+「readerror」「close」と表示される
+
+D
+「close」「readerror」と表示される
+
+E
+コンパイルエラーが発生する
+
+C

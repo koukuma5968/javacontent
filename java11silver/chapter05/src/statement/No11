@@ -1,0 +1,31 @@
+次のプログラムを確認し、コンパイルエラーとなるコードを選びなさい。（1つ選択）
+
+1.	public abstract class Cap5_no11A {}
+
+1.	public interface Cap5_no11B {}
+
+1.	public class Cap5_no11C extends Cap5_no11A implements Cap5_no11B {}
+
+1.	public class Cap5_no11D extends Cap5_no11C {}
+
+A
+List<Cap5_no11A> listA = new ArrayList<>();
+listA.add(new Cap5_no11D());
+
+B
+List<Cap5_no11B> listB = new ArrayList<>();
+listB.add(new Cap5_no11C());
+
+C
+List<Cap5_no11B> listC = new ArrayList<>();
+listC.add(new Cap5_no11D());
+
+D
+List<Cap5_no11D> listD = new ArrayList<>();
+listD.add(new Cap5_no11C());
+
+E
+List<Cap5_no11A> listE = new ArrayList<>();
+listE.add(new Cap5_no11C());
+
+D

@@ -1,0 +1,25 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no10_A {
+2.		static String alpha = "ABC";
+3.		public static void main(String[] args) {
+4.			String alpha = alpha;
+5.			System.out.println(alpha);
+6.		}
+7.	}
+
+
+A
+"ABC"が表示される
+
+B
+想定外の結果が表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+C

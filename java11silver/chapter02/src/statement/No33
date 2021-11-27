@@ -1,0 +1,29 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no33_A {
+2.		public static void main(String[] args) {
+3.			String str = "abcd ef gh";
+4.			int x = str.indexOf("ef");
+5.			str.substring(x + 3);
+6.			x = str.indexOf("ef");
+7.			System.out.println(str + " " + x);
+8.		}
+9.	}
+
+A
+「ef gh 5」と表示される
+
+B
+「ef gh 4」と表示される
+
+C
+「abcd ef gh 4」と表示される
+
+D
+「abcd ef gh 5」と表示される
+
+E
+実行時に例外がスローされる
+
+D

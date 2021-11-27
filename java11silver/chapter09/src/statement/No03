@@ -1,0 +1,37 @@
+Cap9_no03_Dクラスの説明として正しいものを選びなさい。（1つ選択）
+
+1.	public interface Cap9_no03_A {
+2.		void test();
+3.	}
+
+1.	public interface Cap9_no03_A {
+2.		void test();
+3.	}
+
+1.	public interface Cap9_no03_C extends Cap9_no03_A {
+2.		@Override
+3.		default void test() {
+4.			System.out.println("C");
+5.		}
+6.	}
+
+1.	public class Cap9_no03_D implements Cap9_no03_B, Cap9_no03_C {
+2.		@Override
+3.		public void test() {
+4.			super.test();
+5.		}
+6.	}
+
+A
+Cap9_no03_Bインターフェースのtestメソッドを実装している
+
+B
+Cap9_no03_Cインターフェースのtestメソッドを実装している
+
+C
+Cap9_no03_Dクラスがtestメソッドを使わないのであれば、オーバーライドをする必要はない
+
+D
+コンパイルエラーが発生する
+
+D

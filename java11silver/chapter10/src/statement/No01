@@ -1,0 +1,34 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap10_no01 {
+2.		public static void main(String[] args) {
+3.			try {
+4.				int[] array = {1,2,3};
+5.				array[3] = 10;
+6.				System.out.println("try");
+7.			} catch (ArrayIndexOutOfBoundsException e) {
+8.				System.out.println("exception");
+9.			}
+10.		}
+11.	}
+
+A
+「try」と表示される
+
+B
+「exception」と表示される
+
+C
+「try」「exception」と表示される
+
+D
+「exception」「try」と表示される
+
+E
+コンパイルエラーが発生する
+
+F
+実行時に例外が発生する
+
+B

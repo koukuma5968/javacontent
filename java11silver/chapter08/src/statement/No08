@@ -1,0 +1,31 @@
+次のプログラムが実行出来る記述として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public abstract class Cap8_no08_abs {
+2.		public abstract void test();
+3.	}
+
+1.	public abstract class Cap8_no08_abs {
+2.		public abstract void test();
+3.	}
+
+1.	public class Cap8_no08_A {
+2.		public static void main(String[] args) {
+3.			// insert here
+4.		}
+5.	}
+
+A
+new Cap8_no08_abs().test();
+
+B
+Cap8_no08_subA.test();
+
+C
+new Cap8_no08_subA().test();
+
+D
+Cap8_no08_abs obA = new Cap8_no08_abs();
+obA.test();
+
+C

@@ -1,0 +1,40 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap8_no17A {
+2.		private void print(String str) {
+3.			System.out.print(str);
+4.		}
+5.		public void a(String str) {
+6.			print("Capter" + str);
+7.		}
+8.	}
+
+1.	public class Cap8_no17B extends Cap8_no17A {
+2.		private void print(String str) {
+3.			System.out.print(str);
+4.		}
+5.		public void b(String str) {
+6.			print(str);
+7.		}
+8.		public static void main(String[] args) {
+9.			Cap8_no17B cpb = new Cap8_no17B();
+10.			cpb.a("3");
+11.			cpb.b("5");
+12.		}
+13.	}
+
+A
+「Capter53」が表示される
+
+B
+「Capter35」が表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+B
+

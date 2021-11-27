@@ -1,0 +1,26 @@
+次のメソッドをオーバーロードしていないメソッド定義を選びなさい。（2つ選択）
+
+1.	int calculation(double d, int i) {
+2.		return (int) d + i;
+3.	}
+
+A
+int calculation(int j) {}
+
+B
+double calculation(double d, int i) {}
+
+C
+int calculation(double a, double b) {}
+
+D
+int calculation(double num1, int num2) {}
+
+E
+int calculation() {}
+
+F
+int calculation(int i, double d) {}
+
+
+B,D

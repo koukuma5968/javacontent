@@ -1,0 +1,31 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap9_no09_A {
+2.		public static void main(String[] args) {
+3.			String str = "A";
+4.			Function lam = (str) -> {
+5.				System.out.println(str);
+6.			};
+7.			lam.test("B");
+8.		}
+9.		interface Function {
+10.			void test(String str);
+11.		}
+12.	}
+
+
+A
+「A」が表示される
+
+B
+「B」が表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+
+C

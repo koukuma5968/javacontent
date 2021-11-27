@@ -1,0 +1,33 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.util.HashMap;
+2.	import java.util.List;
+3.	import java.util.Map;
+4.
+5.	public class Cap9_no06_A {
+6.		static Map<String, String> map = new HashMap<>();
+7.		static List<String> keys = List.of("key", "get", "set");
+8.		public static void main(String[] args) {
+9.			keys.clear();
+10.			keys.add("add");
+11.			keys.forEach(key -> System.out.print(key + ","));
+12.		}
+13.	}
+
+A
+「key,get,set,」と表示される
+
+B
+「key,get,set,add,」と表示される
+
+C
+「add,」と表示される
+
+D
+コンパイルエラーが発生する
+
+E
+実行時に例外がスローされる
+
+E

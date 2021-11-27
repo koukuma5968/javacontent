@@ -1,0 +1,36 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap10_no06 {
+2.		public static void main(String[] args) {
+3.			int rs = print();
+4.			System.out.println(rs);
+5.		}
+6.
+7.		public static int print() {
+8.			try {
+9.				throw new RuntimeException();
+10.			} catch (RuntimeException e) {
+11.				return -1;
+12.			} finally {
+13.				return 100;
+14.			}
+15.		}
+16.	}
+
+A
+「-1」と表示される
+
+B
+「100」と表示される
+
+C
+「99」と表示される
+
+D
+コンパイルエラーが発生する
+
+E
+実行時に例外が発生する
+
+B

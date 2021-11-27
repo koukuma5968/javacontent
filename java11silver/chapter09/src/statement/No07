@@ -1,0 +1,29 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.util.List;
+2.
+3.	public class Cap9_no07_A {
+4.		public static void main(String[] args) {
+5.			List<String> list = List.of();
+6.			list.add("Cap");
+7.			list.add("ter");
+8.			list.add("38");
+9.			System.out.println(list);
+10.		}
+11.	}
+
+
+A
+「38terCap」が表示される
+
+B
+「Capter38」が表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+D

@@ -1,0 +1,19 @@
+次の中から、メソッド宣言の記述として正しいものを選びなさい。（1つ選択）
+
+
+A
+Void print() { }
+
+B
+void print() { return "str"; }
+
+C
+print() { }
+
+D
+int print() { return "str"; }
+
+E
+void print() { return; }
+
+E

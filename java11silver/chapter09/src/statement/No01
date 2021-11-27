@@ -1,0 +1,30 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.util.function.Supplier;
+2.
+3.	public class Cap9_no01 {
+4.		void cp() {
+5.			int i = 0;
+6.			Supplier<Integer> sup = () -> i;
+7.			i++;
+8.			System.out.println(sup.get());
+9.		}
+10.	}
+
+A
+コンパイルできるが、何も表示されない
+
+B
+実行時に例外がスローされる
+
+C
+0が表示される
+
+D
+1が表示される
+
+E
+コンパイルエラーが発生する
+
+E

@@ -1,0 +1,31 @@
+次のプログラムをコンパイル、実行したときの結果として
+正しいものを選びなさい。（1つ選択）
+
+1.	public abstract class Cap8_no14A {
+2.		abstract void test();
+3.	}
+
+1.	public class Cap8_no14B extends Cap8_no14A {
+2.		@Override
+3.		void test(int i) {
+4.			System.out.println(10);
+5.		}
+6.		public static void main (String[] args) {
+7.			Cap8_no14A cpa = new Cap8_no14B();
+8.			cpa.test();
+9.		}
+10.	}
+
+A
+0が表示される
+
+B
+10が表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+C

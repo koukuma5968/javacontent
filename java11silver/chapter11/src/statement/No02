@@ -1,0 +1,16 @@
+クラスやモジュールの依存関係を調べるために使うコマンドとして、
+正しいものを選びなさい。（2つ選択）
+
+A
+jmod describe
+
+B
+jdeps --list-deps
+
+C
+jar --show-module-resolution
+
+D
+java --show-module-resolution
+
+B,D

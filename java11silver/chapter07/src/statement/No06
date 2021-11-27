@@ -1,0 +1,39 @@
+以下のクラスにカプセル化を適用する場合、次の中から正しいコードを選びなさい。（1つ選択）
+
+1.	public class Hoge {
+2.		int num;
+3.		int getNum() { return num; }
+4.		void setNum(int num) { this.num = num; }
+5.	}
+
+
+A
+public class Hoge {
+	private int num;
+	private int getNum() { return num; }
+	private void setNum(int num) { this.num = num; }
+}
+
+B
+public class Hoge {
+	public int num;
+	public int getNum() { return num; }
+	public void setNum(int num) { this.num = num; }
+}
+
+C
+public class Hoge {
+	public int num;
+	private int getNum() { return num; }
+	private void setNum(int num) { this.num = num; }
+}
+
+D
+public class Hoge {
+	private int num;
+	public int getNum() { return num; }
+	private void setNum(int num) { this.num = num; }
+}
+
+
+D

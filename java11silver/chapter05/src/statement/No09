@@ -1,0 +1,28 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap5_no09_A {
+2.		private char a;
+3.		private int b = 1;
+4.		String test(char a, int b) {
+5.			return a + ", " + b;
+6.		}
+7.		public static void main(String[] args) {
+8.			Cap5_no09_A cp = new Cap5_no09_A();
+9.			System.out.println(cp.test('A'));
+10.		}
+11.	}
+
+A
+「A, 0」と表示される
+
+B
+「A, 1」と表示される
+
+C
+「A, null」と表示される
+
+D
+コンパイルエラーが発生する
+
+D

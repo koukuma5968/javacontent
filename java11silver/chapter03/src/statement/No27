@@ -1,0 +1,34 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no27 {
+2.		public static void main(String[] args) {
+3.			String[] arr = {"A", "B", "C", "D"};
+4.			for (String str : arr) {
+5.				System.out.println(str + " ");
+6.				if (str.equals("C")) {
+7.					System.out.println("continue ");
+8.					continue;
+9.				}
+10				System.out.println("break");
+11.				break;
+12.			}
+13.		}
+14.	}
+
+A
+「A B C continue D break」が表示される
+
+B
+「A B C continue 」が表示される
+
+C
+「A break」が表示される
+
+D
+「A breakB breakC continue 」が表示される
+
+E
+コンパイルエラーが発生する
+
+C

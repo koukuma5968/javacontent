@@ -1,0 +1,40 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap10_no05 {
+2.		public static void main(String[] args) {
+3.			System.out.println(add(2147483647));
+4.		}
+5.
+6.		public static int add(long num) {
+7.			int ret = 0;
+8.			try {
+9.				ret = Integer.valueOf(String.valueOf(++num));
+10.			} catch (NumberFormatException e) {
+11.				return -1;
+12.			} finally {
+13.				System.out.println(9);
+14.			}
+15.			return ret;
+16.		}
+17.	}
+
+A
+「finish」「2147483648」と表示される
+
+B
+「finish」「-1」と表示される
+
+C
+「finish」「0」と表示される
+
+D
+「-1」と表示される
+
+E
+コンパイルエラーが発生する
+
+F
+実行時に例外が発生する
+
+E

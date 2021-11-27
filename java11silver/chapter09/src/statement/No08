@@ -1,0 +1,36 @@
+次のプログラムを実行するためのコードとして、
+誤っているものを選びなさい。（2つ選択）
+
+1.	public class Cap9_no08_A {
+2.		public static void main(String[] args) {
+3.			// insert here
+4.			System.out.println(func.test("Lam"));
+5.		}
+6.		private static interface Function {
+7.			String test(String value);
+8.		}
+9.	}
+
+
+A
+Function func = (value) -> {
+	return "hello, " + value;
+};
+
+B
+Function func = (value) -> {
+	"hello, " + value;
+};
+
+C
+Function func = (value) -> return "hello, " + value;
+
+D
+Function func = (value) -> "hello, " + value;
+
+E
+Function func = value -> {
+	return "hello, " + value;
+};
+
+B,D

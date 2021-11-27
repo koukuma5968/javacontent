@@ -1,0 +1,36 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap10_no04 {
+2.		public static void main(String[] args) {
+3.			try {
+4.				String str = null;
+5.				System.out.println(str.toUpperCase());
+6.				System.out.println("end");
+7.			} finally {
+8.				System.out.println("finish");
+9.			} catch (NullPointerException e) {
+10.				System.out.println("null");
+11.			}
+12.		}
+13.	}
+
+A
+「end」と表示される
+
+B
+「finish」と表示される
+
+C
+「null」と表示される
+
+D
+「null」「finish」と表示される
+
+E
+コンパイルエラーが発生する
+
+F
+実行時に例外が発生する
+
+E

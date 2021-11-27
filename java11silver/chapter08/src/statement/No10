@@ -1,0 +1,36 @@
+次のプログラムのコンパイルを成功させるための方法として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public interface Cap8_no10A {
+2.		abstract void x();
+3.	}
+
+1.	public abstract class Cap8_no10B /* position 1 */ {
+2.		/* potition 2 */
+3.		public void x() {}
+4.		public abstract void z();
+5.	}
+
+1.	public class Cap8_no10C extends Cap8_no10B implements Cap8_no10A {
+2.		/* potition 3 */
+3.	}
+
+A
+以下をposition 3に記述する
+@Override
+public void x() {}
+
+B
+以下をposition 3に記述する
+@Override
+public void z() {}
+
+C
+以下をposition 2に記述する
+void x() {}
+
+D
+以下をposition 1に記述する
+implements
+
+B

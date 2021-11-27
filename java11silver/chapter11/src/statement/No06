@@ -1,0 +1,17 @@
+module-info.javaに設定したモジュールの設定情報を調べるためのコマンドとして、
+正しいものを選びなさい。（2つ選択）
+
+A
+lava --describe-module
+
+B
+jdeps --list-deps
+
+C
+jmod describe
+
+D
+java --show-module-resolution
+
+
+A,C

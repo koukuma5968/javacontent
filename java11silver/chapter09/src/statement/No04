@@ -1,0 +1,35 @@
+次のプログラムの説明として、正しいものを選びなさい。（3つ選択）
+
+1.	public interface Cap9_no04_A {
+2.		public Cap9_no04_A build(String str);
+3.	}
+
+1.	public class Cap9_no04_B implements Cap9_no04_A {
+2.		public Cap9_no04_B(String str) {
+3.			// ...
+4.		}
+5.		@Override
+6.		public Cap9_no04_B build(String str) {
+7.			return new Cap9_no04_B(str);
+8.		}
+9.	}
+
+A
+Cap9_no04_Aはfinalにできない
+
+B
+Cap9_no04_Bはabstactにできない
+
+C
+Cap9_no04_Bはfinalにできない
+
+D
+Cap9_no04_AはCap9_no04_Bのサブタイプである
+
+E
+Cap9_no04_Aはabstractにできない
+
+F
+Cap9_no04_BはCap9_no04_Aのサブタイプである
+
+A,B,F

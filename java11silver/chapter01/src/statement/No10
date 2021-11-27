@@ -1,0 +1,19 @@
+次の3つのステートメントを記述する順番として正しいものを選びなさい。（1つ選択）
+
+A
+package   import   class
+
+B
+package   class    import
+
+C
+import    class    package
+
+D
+class     package  import
+
+E
+import    package  class
+
+
+A

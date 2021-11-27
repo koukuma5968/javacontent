@@ -1,0 +1,33 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap9_no10_A {
+2.		public static void main(String[] args) {
+3.			int cnt = 0;
+4.			Runnable run = () -> {
+5.				while (cnt < 10) {
+6.					System.out.println(cnt++);
+7.				}
+8.			};
+9.			new Thread(run).start();
+10.		}
+11.	}
+
+
+A
+「0123456789」が表示される
+
+B
+「02468」が表示される
+
+C
+「13579」が表示される
+
+D
+コンパイルエラーが発生する
+
+E
+実行時に例外がスローされる
+
+
+C

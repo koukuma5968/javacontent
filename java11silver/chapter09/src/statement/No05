@@ -1,0 +1,31 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.util.ArrayList;
+2.	import java.util.Arrays;
+3.
+4.	public class Cap9_no04_A {
+5.	    public static void main(String[] args) {
+6.	        var numeric = new ArrayList<>(
+7.	            Arrays.asList(new String[] {"1", "5", "10", "4", "9"}));
+8.	        numeric.sort((var a, var b) -> {
+9.	            return -String.format("%2s", a).compareTo(String.format("%2s", b));
+10.	        });
+11.	        numeric.forEach(System.out::println);
+12.	    }
+13.	}
+
+A
+何も表示されない
+
+B
+「1」「4」「5」「9」「10」と表示される
+
+C
+「10」「9」「5」「4」「1」と表示される
+
+D
+「9」「5」「4」「10」「1」と表示される
+
+
+C

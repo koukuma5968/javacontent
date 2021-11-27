@@ -1,0 +1,30 @@
+次のうち、メソッドの定義として正しいものを選びなさい。（2つ選択）
+
+A
+public void getIncrement(int x) {
+	return ++x;
+}
+
+B
+public String print(String p) {
+	System.out.println(p);
+}
+
+C
+public void getEmptyString() {
+	String ret = "";
+	return;
+}
+
+D
+public boolean check(int a, intb) {
+	return a == b ? "true" : "false";
+}
+
+E
+public byte[] setByteData(String bytes) {
+	return bytes.getBytes();
+}
+
+
+C,E

@@ -1,0 +1,38 @@
+次のプログラムを確認し、Cap1_no11_Aクラスの2行目に入るコードとして、
+正しいものを選びなさい。（1つ選択）
+
+1.	package example.chapter;
+2.
+3.	public class Cap1_no11_B {
+4.		public void print(int num) {
+5.		    System.out.print(num);
+6.		}
+7.	}
+
+1.	package example;
+2.	// insert
+3.	public class Cap1_no11_A {
+4.		public static void main(String[] args) {
+5.		    ArrayList<String> arr = new ArrayList<String>();
+6.		    arr.add(args[0]);
+7.		    Cap1_no11_B cp = new Cap1_no11_B();
+8.		    cp.print(Integer.parseInt(arr.get(0)));
+9.		}
+10.	}
+
+A
+import java.lang.Integer;
+import example.*;
+
+B
+import java.util.ArrayList;
+import example.chapter.Cap1_no11_B;
+
+C
+import example.chapter.*;
+
+D
+import java.lang.*;
+import java.util.ArrayList;
+
+B

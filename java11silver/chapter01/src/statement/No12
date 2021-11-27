@@ -1,0 +1,47 @@
+次のプログラムをコンパイルし、実行するためのコマンドとして、
+正しいものを選びなさい。（1つ選択）
+
+1.	package example;
+2.
+3.	public class Cap1_no12_A {
+4.		private final String name;
+5.		public Cap1_no12_A(String name) {
+6.			this.name = name;
+7.		}
+8.		public String getName() {
+9.			return name;
+10.		}
+11.		public String toString() {
+12.			return name;
+13.		}
+14.	}
+
+1.	package example;
+2.
+3.	import java.util.logging.Logger;
+4.
+5.	public class Cap1_no12_B {
+6.		static final Logger logger = Logger.getAnonymousLogger();
+7.		public static void main(String[] args) {
+8.			var d = new Cap1_no12_A("sample");
+9.			logger.info(d.toString());
+10.		}
+11.	}
+
+A
+javac example/Cap1_no12_A.java example/Cap1_no12_B.java
+java -cp build example.Cap1_no12_B
+
+B
+javac -d build example/Cap1_no12_A.java example/Cap1_no12_B.java
+java -cp build example.Cap1_no12_B
+
+C
+javac -d build example/Cap1_no12_A.java example/Cap1_no12_B.java
+java example.Cap1_no12_B
+
+D
+javac -d build example/Cap1_no12_A.java example/Cap1_no12_B.java
+java build.example.Cap1_no12_B
+
+B

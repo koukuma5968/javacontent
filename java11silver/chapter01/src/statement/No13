@@ -1,0 +1,31 @@
+次のプログラムを以下のコマンドで実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+
+> java Cap1_no13 Z "XY" Y " Z"
+
+1.	public class Cap1_no13_A {
+2.		public static void main(String[] args) {
+3.			for (String str : args) {
+4.				System.out.println(str);
+5.			}
+6.		}
+7.	}
+
+
+A
+「Z XY Y  Z」が表示される
+
+B
+「ZXYY Z」が表示される
+
+C
+「ZXYYZ」が表示される
+
+D
+「Z X Y Y Z」が表示される
+
+E
+実行時に例外がスローされる
+
+B

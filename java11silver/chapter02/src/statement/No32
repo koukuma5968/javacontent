@@ -1,0 +1,25 @@
+次のプログラムを確認し、変数valueのデータ型として、
+正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Cap2_no32_A {
+2.		public static void main(String... args) {
+3.			for (var value : args) {
+4.				System.out.println(value);
+5.			}
+6.		}
+7.	}
+
+A
+String
+
+B
+String[]
+
+C
+Character
+
+D
+var
+
+A

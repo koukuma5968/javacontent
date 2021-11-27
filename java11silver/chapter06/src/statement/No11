@@ -1,0 +1,25 @@
+次の中から、メソッド宣言の記述として正しいものを選びなさい。（1つ選択）
+
+
+A
+void method(void(){}
+
+B
+void method(int muns...){}
+
+C
+void method(int... muns, char c){}
+
+D
+void method(byte... b, byte... c){}
+
+E
+C,Dのみ正しい
+
+F
+すべて正しい
+
+G
+すべて誤っている
+
+G

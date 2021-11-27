@@ -1,0 +1,27 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.util.ArrayList;
+2.	import java.util.List;
+3.
+4.	public class Cap10_no08 {
+5.		public static void main(String[] args) {
+6.			List<String> l = new ArrayList<>();
+7.			l.get(0);
+8.		}
+9.	}
+
+
+A
+IndexOutOfBoundsException
+
+B
+ArrayIndexOutOfBoundsException
+
+C
+StringIndexOutOfBoundsException
+
+D
+ListIndexOutOfBoundsException
+
+A

@@ -1,0 +1,40 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	class Cap8_no15A {
+2.		public Cap8_no15A() {
+3.			System.out.print("X");
+4.		}
+5.	}
+
+1.	class Cap8_no15B extends Cap8_no15A {
+2.		public Cap8_no15B() {
+3.			System.out.print("Y");
+4.		}
+5.	}
+
+1.	class Cap8_no15C extends Cap8_no15B {
+2.		public Cap8_no15C() {
+3.			System.out.print("Z");
+4.		}
+5.	}
+
+1.	public class Cap8_no15D {
+2.		public static void main(String[] args) {
+3.			new Cap8_no15C();
+4.		}
+5.	}
+
+A
+「ZYX」と表示される
+
+B
+「Z」と表示される
+
+C
+「XYZ」と表示される
+
+D
+コンパイルエラーが発生する
+
+C

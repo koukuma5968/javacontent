@@ -1,0 +1,26 @@
+次のメソッドオーバーライドするメソッド定義として、
+正しいものを選びなさい。（1つ選択）
+
+
+1.	void method() {
+2.		// do something
+3.	}
+
+
+A
+public void method() {}
+
+B
+protected void method() {}
+
+C
+private void method() {}
+
+D
+A,B,Cすべて正しい
+
+E
+A,B,Cすべて誤り
+
+
+E

@@ -1,0 +1,38 @@
+次のプログラムを確認し、これらのクラスを利用するMainクラスをコンパイル、
+実行した時の結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap8_no11A {
+2.		public void good() {
+3.			System.out.println("good");
+4.		}
+5.	}
+
+1.	public class Cap8_no11B extends Cap8_no11A {
+2.		public void bad() {
+3.			System.out.println("bad");
+4.		}
+5.	}
+
+1.	public class Cap8_no11C {
+2.		public static void main(String[] args) {
+3.			Cap8_no11A cpa = new Cap8_no11B();
+4.			cpa.bad();
+5.		}
+6.	}
+
+A
+「bad」と表示される
+
+B
+「null」と表示される
+
+C
+何も表示されない
+
+D
+コンパイルエラーが発生する
+
+E
+実行時に例外がスローされる
+
+D

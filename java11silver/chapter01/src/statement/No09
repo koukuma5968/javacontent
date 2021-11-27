@@ -1,0 +1,29 @@
+次の2つのコードのクラスファイルを生成するためのコマンドとして、
+正しいものを選びなさい。（1つ選択）
+
+1.	package b;
+2.	public class Cap1_no09_B {}
+
+1.	package a;
+2.
+3.	public class Cap1_no09_A {
+4.		public static void main(String[] args) {
+5.			Cap1_no09_B cb = new Cap1_no09_B();
+6.		}
+7.	}
+
+A
+java a/Cap1_no09_A.java
+
+B
+java b/Cap1_no09_B.java
+
+C
+javac b/Cap1_no09_B.java
+java a/Cap1_no09_A.java
+
+D
+javac a/Cap1_no09_A.java
+java a/Cap1_no09_A
+
+D

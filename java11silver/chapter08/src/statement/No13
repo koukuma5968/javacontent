@@ -1,0 +1,49 @@
+次のプログラムの説明として、正しいものを選びなさい。（3つ選択）
+
+1.	import java.util.Collection;
+2.
+3.	public class Cap8_no13A {
+4.		public void print(Collection arg) {
+5.			System.out.println("A");
+6.		}
+7.	}
+
+1.	import java.util.Collection;
+2.	import java.util.List;
+3.
+4.	public class Cap8_no13B extends Cap8_no13A {
+5.		public void print(Collection arg) {
+6.			System.out.println("B");
+7.		}
+8.		public void print(List arg) {
+9.			System.out.println("C");
+10.		}
+11.	}
+
+1.	public class Cap8_no13C{
+2.		public static void main(String[] args) {
+3.			Cap8_no13A cap1 = new Cap8_no13A();
+4.			Cap8_no13A cap2 = new Cap8_no13B();
+5.			Cap8_no13B cap3 = new Cap8_no13B();
+6.
+7.			List<String> list = new ArrayList<>();
+8.			// do something
+9.		}
+10.	}
+
+A
+「cap1.print(list)」を実行すると、Aが表示される
+
+B
+「cap2.print(list)」を実行すると、Aが表示される
+
+C
+「cap2.print(list)」を実行すると、Bが表示される
+
+D
+「cab1.print(list)」を実行すると、Bが表示される
+
+E
+「cab1.print(list)」を実行すると、Cが表示される
+
+A,C,E

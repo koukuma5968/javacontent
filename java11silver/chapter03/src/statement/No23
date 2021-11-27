@@ -1,0 +1,28 @@
+次のプログラムをコンパイルし、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no23 {
+2.		static String str;
+3.		public static void main(String[] args) {
+4.			switch (str) {
+5.				case "10" : str += "10";
+6.				default : str += "def";
+7.				case "20" : str += "20";
+8.			}
+9.			System.out.println(str);
+10.		}
+11.	}
+
+A
+「10def20」と表示される
+
+B
+「def20」と表示される
+
+C
+「null」と表示される
+
+D
+実行時に例外がスローされる
+
+D

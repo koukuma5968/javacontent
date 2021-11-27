@@ -1,0 +1,35 @@
+次のプログラムをコンパイルし、実行した結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	import java.time.LocalDate;
+2.	import static java.time.DayOfWeek.*;
+3.
+4.	public class Cap3_no24 {
+5.		public static void main(String[] args) {
+6.			var today = LocalDate.now().with(TUESDAY).getDayOfWeek();
+7.			switch (today) {
+8.			case SUNDAY:
+9.			case SATURDAY:
+10.				System.out.println("weekend");
+11.				break;
+12.			case MONDAY:
+13.			case FRIDAY: System.out.println("working");
+14.			default:
+15.				System.out.println("other");
+16.			}
+17.		}
+18.	}
+
+A
+「working」と表示される
+
+B
+「working」「other」と表示される
+
+C
+「Tuesday」と表示される
+
+D
+「other」と表示される
+
+D

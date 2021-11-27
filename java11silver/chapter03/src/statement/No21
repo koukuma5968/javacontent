@@ -1,0 +1,32 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap3_no21 {
+2.		public static void main(String[] args) {
+3.			int data = 1;
+4.			switch(data) {
+5.				default:	System.out.print("C");
+6.				case 0:		System.out.print("A");
+7.							break;
+8.				case 10:	System.out.print("B");
+9.							break;
+10.			}
+11.		}
+12.	}
+
+A
+「A」と表示される
+
+B
+「C」と表示される
+
+C
+「CA」と表示される
+
+D
+「CAB」と表示される
+
+E
+コンパイルエラーが発生する
+
+C

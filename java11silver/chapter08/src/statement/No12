@@ -1,0 +1,43 @@
+次のプログラムの説明として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap8_no12A {
+2.		int num = 10;
+3.		public double getValue() {
+4.			return 0.0;
+5.		}
+6.	}
+
+1.	public class Cap8_no12B extends Cap8_no12A {
+2.		@Override
+3.		public double getValue() {
+4.			// ...
+5.			return 1.0;
+6.		}
+7.	}
+
+1.	public class Cap8_no12C extends Cap8_no12B {
+2.		@Override
+3.		public double getValue() {
+4.			System.out.println(super.num);
+5.			return super.getValue();
+6.		}
+7.	}
+
+A
+Cap8_no12Bのサブクラスでは、getValueメソッド
+Cap8_no12Aクラスのフィールドにアクセスすることができる
+
+B
+Cap8_no12Bのサブクラスでは、Cap8_no12Bのメソッドを呼び出すために
+super.getValue()を使えるが、
+Cap8_no12Aクラスのフィールドにアクセスすることができる
+
+C
+Cap8_no12Bのサブクラスでは、Cap8_no12Bのメソッドを呼び出すために
+new.getValue()を使う
+
+D
+Cap8_no12Bのサブクラスでは、Cap8_no12Bのメソッドを呼び出すために
+public.getValue()を使う
+
+A

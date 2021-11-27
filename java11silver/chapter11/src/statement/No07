@@ -1,0 +1,16 @@
+module-info.javでexportsされていないパッケージを、一時的に利用してコンパイルする場合、
+javacコマンドのオプションとして正しいものを選びなさい。（1つ選択）
+
+A
+--add-exports
+
+B
+--exports
+
+C
+-add
+
+D
+--add-modules
+
+A

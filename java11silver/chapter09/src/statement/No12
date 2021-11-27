@@ -1,0 +1,25 @@
+次のプログラムのinsert hereに入るコードとして、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap9_no12_A {
+2.		public static void main(String[] args) {
+3.			//insert here <String, Integer> m = (str) -> {
+4.				return Integer.parseInt(str);
+5.			};
+6.			System.out.println(m.apply("lam"));
+7.		}
+8.	}
+
+A
+Consumer
+
+B
+Function
+
+C
+Supplier
+
+D
+Predicate
+
+B

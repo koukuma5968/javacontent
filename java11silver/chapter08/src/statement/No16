@@ -1,0 +1,31 @@
+抽象クラスの定義として、正しいものを選びなさい。（1つ選択）
+
+A
+abstract class Cap8_no16A {
+	public abstract int price(Cap8_no16A cp);
+	public void print(Cap8_no16A cp) { /* do something */ }
+}
+
+B
+abstract class Cap8_no16B {
+	public int price(Cap8_no16B cp);
+	public void print(Cap8_no16B cp);
+}
+
+C
+abstract class Cap8_no16C {
+	public int price(Cap8_no16C cp);
+	public final void print(Cap8_no16C cp) { /* do something */ }
+}
+
+D
+abstract class Cap8_no16D {
+	public abstract int price(Cap8_no16D cp) {
+		/* do something */
+	}
+	public abstract void print(Cap8_no16D cp) {
+		/* do something */
+	}
+}
+
+A

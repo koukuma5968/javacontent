@@ -1,0 +1,48 @@
+次のプログラムをコンパイル、実行したときの結果として、
+正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap10_no3_B extends Exception {}
+
+1.	public class Cap10_no3_A extends Cap10_no3_B {}
+
+1.	public class Cap10_no3 {
+2.		public static void main(String[] args) {
+3.			try {
+4.				exceptionA();
+5.				exceptionB();
+6.			} catch (Cap10_no3_A e) {
+7.				System.out.println("exA");
+8.			} catch (Cap10_no3_B e) {
+9.				System.out.println("exB");
+10.			}
+11.		}
+12.
+13.		private static void exceptionA() throws Cap10_no3_A {
+14.			throw new Cap10_no3_A();
+15.		}
+16.
+17.		private static void exceptionB() throws Cap10_no3_B {
+18.			throw new Cap10_no3_B();
+19.		}
+20.
+21.	}
+
+A
+「exA」と表示される
+
+B
+「exB」と表示される
+
+C
+「exA」「exB」と表示される
+
+D
+何も表示されない
+
+E
+コンパイルエラーが発生する
+
+F
+実行時に例外が発生する
+
+A
