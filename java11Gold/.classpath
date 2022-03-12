@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="chapter01/src"/>
+	<classpathentry kind="src" path="chapter02/src"/>
+	<classpathentry kind="src" path="chapter03/src"/>
+	<classpathentry kind="src" path="chapter04/src"/>
+	<classpathentry kind="src" path="chapter05/src"/>
+	<classpathentry kind="src" path="chapter06/src"/>
+	<classpathentry kind="src" path="chapter07/src"/>
+	<classpathentry kind="src" path="chapter08/src"/>
+	<classpathentry kind="src" path="chapter09/src"/>
+	<classpathentry kind="src" path="chapter10/src"/>
+	<classpathentry kind="src" path="chapter11/src"/>
+	<classpathentry kind="src" path="chapter12/src"/>
+	<classpathentry kind="src" path="chapter13/src"/>
+	<classpathentry kind="src" path="chapter14/src"/>
+	<classpathentry kind="src" path="chapter15/src"/>
+	<classpathentry kind="src" path="chapter16/src"/>
+	<classpathentry kind="src" path="chapter17/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java11">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

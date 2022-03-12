@@ -1,0 +1,28 @@
+以下のプログラムを実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Cap2_no01_A {
+2.
+3.		public static void main(String[] args) {
+4.		int a;
+5.			byte b = 0x1;
+6.			if (b == a) {
+7.				b++;
+8.			}
+9.			System.out.println(b);
+10.		}
+11.	}
+
+
+A
+「2」 が表示される。
+
+B
+「0x1」が表示される。
+
+C
+コンパイルエラーが発生する。
+
+D
+実行時に例外がスローされる。
+
+C
