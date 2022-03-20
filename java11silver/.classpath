@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="chapter01/bin" path="chapter01/src"></classpathentry>
+	<classpathentry kind="src" output="chapter01/bin" path="chapter01/src"/>
 	<classpathentry kind="src" output="chapter02/bin" path="chapter02/src"/>
 	<classpathentry kind="src" output="chapter03/bin" path="chapter03/src"/>
 	<classpathentry kind="src" output="chapter04/bin" path="chapter04/src"/>

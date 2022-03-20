@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="chapter01/src"/>
-	<classpathentry kind="src" path="chapter02/src"/>
-	<classpathentry kind="src" path="chapter03/src"/>
-	<classpathentry kind="src" path="chapter04/src"/>
-	<classpathentry kind="src" path="chapter05/src"/>
-	<classpathentry kind="src" path="chapter06/src"/>
-	<classpathentry kind="src" path="chapter07/src"/>
-	<classpathentry kind="src" path="chapter08/src"/>
-	<classpathentry kind="src" path="chapter09/src"/>
-	<classpathentry kind="src" path="chapter10/src"/>
-	<classpathentry kind="src" path="chapter11/src"/>
-	<classpathentry kind="src" path="chapter12/src"/>
-	<classpathentry kind="src" path="chapter13/src"/>
-	<classpathentry kind="src" path="chapter14/src"/>
-	<classpathentry kind="src" path="chapter15/src"/>
-	<classpathentry kind="src" path="chapter16/src"/>
-	<classpathentry kind="src" path="chapter17/src"/>
+	<classpathentry kind="src" output="chapter01/bin" path="chapter01/src"/>
+	<classpathentry kind="src" output="chapter02/bin" path="chapter02/src"/>
+	<classpathentry kind="src" output="chapter03/bin" path="chapter03/src"/>
+	<classpathentry kind="src" output="chapter04/bin" path="chapter04/src"/>
+	<classpathentry kind="src" output="chapter05/bin" path="chapter05/src"/>
+	<classpathentry kind="src" output="chapter06/bin" path="chapter06/src"/>
+	<classpathentry kind="src" output="chapter07/bin" path="chapter07/src"/>
+	<classpathentry kind="src" output="chapter08/bin" path="chapter08/src"/>
+	<classpathentry kind="src" output="chapter09/bin" path="chapter09/src"/>
+	<classpathentry kind="src" output="chapter10/bin" path="chapter10/src"/>
+	<classpathentry kind="src" output="chapter11/bin" path="chapter11/src"/>
+	<classpathentry kind="src" output="chapter12/bin" path="chapter12/src"/>
+	<classpathentry kind="src" output="chapter13/bin" path="chapter13/src"/>
+	<classpathentry kind="src" output="chapter14/bin" path="chapter14/src"/>
+	<classpathentry kind="src" output="chapter15/bin" path="chapter15/src"/>
+	<classpathentry kind="src" output="chapter16/bin" path="chapter16/src"/>
+	<classpathentry kind="src" output="chapter17/bin" path="chapter17/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java11">
 		<attributes>
 			<attribute name="module" value="true"/>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin"/>
 </classpath>
