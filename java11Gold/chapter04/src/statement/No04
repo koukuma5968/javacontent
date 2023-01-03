@@ -1,0 +1,30 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Chap4_no04_A {
+2.		public static void main(String[] args) {
+3.			List<? extends Number> l = new ArrayList<Integer>();
+4.			l.add(10);
+5.			l.add(20);
+6.			l.add(30);
+7.			for (Number n : l) {
+8.				System.out.println(n);
+9.			}
+10.		}
+11.	}
+
+
+A
+変数宣言でコンパイルエラーが発生する
+
+B
+addメソッドでコンパイルエラーが発生する
+
+C
+for文でコンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+
+B

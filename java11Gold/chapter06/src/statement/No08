@@ -1,0 +1,37 @@
+
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	import java.util.Optional;
+2.
+3.	public class Chap6_no08_A {
+4.		public static void main(String[] args) {
+5.			Optional<Integer> a = Optional.of(100);
+6.			Optional<Integer> b = a.map(price -> calc(price, 3));
+7.			System.out.print(b.get());
+8.		}
+9.
+10.		private static Optional<Integer> calc(int price, int qty) {
+11.			if (qty < 0) {
+12.				return Optional.empty();
+13.			}
+14.			return Optional.of(price * qty);
+15.		}
+16.	}
+
+
+A
+「300」と表示される
+
+B
+「empty」と表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+
+C
+

@@ -1,0 +1,33 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public class Chap15_no03_A {
+2.		public static void main(String[] args) {
+3.			var sql = "select count(id) from smp where id < ?";
+4.			try (Connection con = DriverManager.getConnection(
+5.					"jdbc:derby://localhost:1527/data/Sample");
+6.					var ps = con.prepareStatement(sql);) {
+7.				ResultSet rs = ps.executeQuery();
+8.				while (rs.next()) {
+9.					System.out.println(rs.getInt(0));
+10.				}
+11.			} catch (SQLException e) {
+12.				e.printStackTrace();
+13.			}
+14.		}
+15.	}
+
+A
+カウント結果が戻される
+
+B
+カウント数「0」が戻される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外が発生する
+
+
+D
+

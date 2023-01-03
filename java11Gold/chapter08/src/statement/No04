@@ -1,0 +1,36 @@
+次のプログラムを実行して、[実行結果]に示した結果を得たい。
+[Insrt code here]に入るコードとして正しいものを選びなさい（1つ選択）
+
+
+1.	import java.util.Arrays;
+2.	import java.util.List;
+3.
+4.	public class Chap8_no04_A {
+5.		public static void main(String[] args) {
+6.			List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+7.			list.stream().
+8.			// insert code here
+9.			.forEach(System.out::print);
+10.		}
+11.	}
+
+
+[実行結果]
+678910
+
+
+A
+filter(n -> n > 5)
+
+B
+filter(n -> n < 5)
+
+C
+map(n -> n > 5)
+
+D
+map(n -> n < 5)
+
+
+A
+

@@ -1,0 +1,20 @@
+モジュールを利用したコマンドとして、正しいものを選びなさい。
+なお、AppモジュールがLibモジュールを利用し、
+モジュール定義ファイルは正しく定義されているものとする。（1つ選択）
+
+
+A
+javac --module modules src/Main.java src/module-info.java
+
+B
+javac --module modules/lib.jar src/Main.java src/module-info.java
+
+C
+java --module modules App/Main
+
+D
+java --module-path modules -moduke App/Main
+
+
+D
+

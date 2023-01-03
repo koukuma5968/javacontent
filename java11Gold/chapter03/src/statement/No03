@@ -1,0 +1,40 @@
+次のプログラムの「// insert code here」に記述するコードとして、正しいものを選びなさい。（1つ選択）
+
+1.	public interface Chap3_no03_A {
+2.		default void print() {
+3.			System.out.println("interA");
+4.		}
+5.	}
+
+1.	public interface Chap3_no03_B {
+2.		default void print() {
+3.			System.out.println("interB");
+4.		}
+5.	}
+
+1.	public interface Chap3_no03_C extends Chap3_no03_B {}
+
+1.	public interface Chap3_no03_D extends Chap3_no03_C {}
+
+
+1.	public class Chap3_no03_M implements Chap3_no03_A,Chap3_no03_D {
+2.		@Override
+3.		public void print() {
+4.			// insert code here
+5.		}
+6.	}
+
+
+A
+Chap3_no03_A.super.print();
+
+B
+Chap3_no03_B.super.print();
+
+C
+Chap3_no03_C.super.print();
+
+D
+いずれもコンパイルエラーとなる
+
+A

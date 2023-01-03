@@ -1,0 +1,36 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public enum Chap1_no09_A {
+2.		SUM("Sunday"), MON("Monday"), TUE("Tuesday");
+3.		private String week;
+4.		private Chap1_no09_A(String week) {
+5.			System.out.println(week);
+6.			this.week = week;
+7.		}
+8.		public String value() {
+9.			return this.week;
+10.		}
+11.	}
+
+
+1.	public class Chap1_no09_M {
+2.		public static void main(String[] args) {
+3.			System.out.println(Chap1_no09_A.SUM);
+4.		}
+5.	}
+
+
+A
+「Sunday」「Monday」「Tuesday」「SUM」と表示される
+
+B
+「Sunday」「Monday」「Tuesday」と表示される
+
+C
+「SUM」と表示される
+
+D
+「SUM」「Sunday」「Monday」「Tuesday」と表示される
+
+A

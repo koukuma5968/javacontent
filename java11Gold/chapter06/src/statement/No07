@@ -1,0 +1,30 @@
+
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	import java.util.Optional;
+2.
+3.	public class Chap6_no07_A {
+4.		public static void main(String[] args) {
+5.			Optional<String> smp = Optional.of("abcde");
+6.			Optional<String> res = smp.map(str -> str.toUpperCase());
+7.			System.out.println(smp.get());
+8.			System.out.println(res.get());
+9.		}
+
+
+A
+「abcde」「abcde」と表示される
+
+B
+「abcde」「ABCDE」と表示される
+
+C
+「ABCDE」「abcde」と表示される
+
+D
+「ABCDE」「ABCDE」と表示される
+
+
+B
+

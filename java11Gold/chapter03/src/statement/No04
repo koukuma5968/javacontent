@@ -1,0 +1,39 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public interface Chap3_no04_A {
+2.		default void print() {
+3.			System.out.println("interA");
+4.		}
+5.	}
+
+
+1.	public class Chap3_no04_B {
+2.		public void print() {
+3.			System.out.println("interB");
+4.		}
+5.	}
+
+1.	public class Chap3_no04_C extends Chap3_no04_B implements Chap3_no04_A {}
+
+1.	public class Chap3_no04_M {
+2.		public static void main(String[] args) {
+3.			Chap3_no04_A a = new Chap3_no04_C();
+4.			a.print();
+5.		}
+6.	}
+
+
+A
+「interA」と表示される
+
+B
+「interB」と表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+B

@@ -1,0 +1,35 @@
+次のプログラムの説明として、正しいものを選びなさい。（3つ選択）
+
+1.	public interface Chap3_no01_A {
+2.		static void print() {
+3.			System.out.println("inter");
+4.		}
+5.	}
+
+1.	public interface Chap3_no01_B extends Chap3_no01_A {}
+
+1.	public class Chap3_no01_C implements Chap3_no01_A {}
+
+1.	public class Chap3_no01_D implements Chap3_no01_A {
+2.		public static void main(String[] args) {
+3.			Chap3_no01_A.print();
+4.			Chap3_no01_B.print();
+5.			Chap3_no01_C.print();
+6.			print();
+7.		}
+8.	}
+
+
+A
+Chap3_no01_Dの3行目でコンパイルエラーが発生する。
+
+B
+Chap3_no01_Dの4行目でコンパイルエラーが発生する。
+
+C
+Chap3_no01_Dの5行目でコンパイルエラーが発生する。
+
+D
+Chap3_no01_Dの6行目でコンパイルエラーが発生する。
+
+B,C,D

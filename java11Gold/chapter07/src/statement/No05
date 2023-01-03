@@ -1,0 +1,17 @@
+java.util.function.Predicateインターフェースで宣言されている抽象メソッドとして、
+正しいものを選びなさい。（1つ選択）
+
+A
+Predicate<T> and(Predicate<T> p);
+
+B
+boolean test(T t);
+
+C
+Predicate<T> negate();
+
+D
+Predicate<T> or(Predicate<T> p);
+
+
+B

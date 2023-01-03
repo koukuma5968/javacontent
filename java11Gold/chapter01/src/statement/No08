@@ -1,0 +1,36 @@
+次のプログラムをコンパイル、実行したときの結果に「MON」を表示するため、
+「// insert code here」に記述するコードとして正しいものを選びなさい。（1つ選択）
+
+
+1.	public enum Chap1_no08_A {
+2.		SUM, MON, TUE
+3.	}
+
+
+1.	public class Chap1_no08_M {
+2.		public static void main(String[] args) {
+3.			// insert code here
+4.		}
+5.	}
+
+
+
+A
+System.out.println(Chap1_no08_A.values()[0]);
+
+B
+System.out.println(Chap1_no08_A.valueOf("TUE"));
+
+C
+System.out.println(Chap1_no08_A.valueOf("mon"));
+
+D
+System.out.println(Chap1_no08_A.valueOf("sum"));
+
+E
+System.out.println(Chap1_no08_A.values()[1]);
+
+F
+System.out.println(Chap1_no08_A.values()[2]);
+
+E

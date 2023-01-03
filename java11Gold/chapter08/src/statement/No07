@@ -1,0 +1,35 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	import java.util.Arrays;
+2.	import java.util.List;
+3.	import java.util.Optional;
+4.	import java.util.stream.Collectors;
+5.	import java.util.stream.Stream;
+6.
+7.	public class Chap8_no07_A {
+8.		public static void main(String[] args) {
+9.			List<String> vehicle = Arrays.asList("train", "bicycle", "car");
+10.			Stream<String> s = vehicle.stream();
+11.			Optional<String> keys = s.collect(
+12.					Collectors.maxBy((val,val2) -> val.compareTo(val2)));
+13.			keys.stream().forEach(System.out::println);
+14.		}
+15.	}
+
+
+A
+「bicycle」と表示される
+
+B
+「train」「bicycle」「car」と表示される
+
+C
+「train」と表示される
+
+D
+「car」と表示される
+
+
+C
+

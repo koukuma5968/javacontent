@@ -1,0 +1,32 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Chap1_no04 {
+2.		public static void main(String[] args) {
+3.			Chap1_no04 c = new Chap1_no04();
+4.			c.msg();
+5.			c.new Inner().print();
+6.		}
+7.		void msg() {
+8.			Inner.mes = "Java";
+9.		}
+10.		class Inner {
+11.			private static String mes;
+12.			public void print() {
+13.				System.out.println(mes);
+14.			}
+15.		}
+16.	}
+
+
+A
+「Java」と表示される
+B
+4行目でコンパイルエラーが発生する
+C
+11行目でコンパイルエラーが発生する
+D
+実行時に例外がスローされる
+
+
+C

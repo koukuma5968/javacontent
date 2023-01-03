@@ -1,0 +1,16 @@
+独自に作成する例外クラスに関する説明として、最も適切なものを選びなさい。（1つ選択）
+
+
+A
+java.lang.RuntimeExceptionクラスのサブクラスでなければならない
+
+B
+java.lang.Exceptionクラスのサブクラスでなければならない
+
+C
+java.lang.Throwableクラスのサブクラスでなければならない
+
+D
+java.lang.Errorクラスのサブクラスでなければならない
+
+B

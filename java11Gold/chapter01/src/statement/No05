@@ -1,0 +1,41 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public interface Chap1_no05_I {
+2.		void print();
+3.	}
+
+1.	public class Chap1_no05_M {
+2.		public static void main(String[] args) {
+3.			new Chap1_no05_A().msg("Java").print();
+4.		}
+5.	}
+
+1.	public class Chap1_no05_A {
+2.		private String val;
+3.		public Chap1_no05_I msg(String mes) {
+4.			class X implements Chap1_no05_I {
+5.				@Override
+6.				public void print() {
+7.					System.out.println(val + mes);
+8.				}
+9.			}
+10.			val = "Open, ";
+11.			mes = "jdk";
+12.			return new X();
+13.		}
+14.	}
+
+
+
+A
+「Java」と表示される
+B
+「Open, jdk」と表示される
+C
+実行時に例外がスローされる
+D
+コンパイルエラーが発生する
+
+
+D

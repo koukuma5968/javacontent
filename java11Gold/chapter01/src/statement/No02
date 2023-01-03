@@ -1,0 +1,25 @@
+次のプログラムの「// insert code here」に記述するコードとして、正しいものを選びなさい。（1つ選択）
+
+1.	public class Chap1_no02 {
+2.
+3.		class Inner {
+4.			public void print() {
+5.				System.out.println("Chap1_no02");
+6.			}
+7.		}
+8.
+9.		public static void main(String[] args) {
+10.			// insert code here
+11.		}
+12.	}
+
+A
+new Inner();
+B
+new Chap1_no02.Inner();
+C
+new Chap1_no02.new Inner();
+D
+new Chap1_no02:Inner();
+
+B

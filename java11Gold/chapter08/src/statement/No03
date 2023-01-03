@@ -1,0 +1,28 @@
+次のプログラムの「Insert code here」に入るコードとして正しいものを選びなさい
+（1つ選択）
+
+
+1.	public class Chap8_no03_A {
+2.		public static void main(String[] args) {
+3.			List<Integer> list = Arrays.asList(1,2,3,4,5);
+4.			Insert code here
+5.			= list.stream().reduce(0, (a, b) -> a + b);
+6.		}
+7.	}
+
+
+A
+Stream<Integer> res
+
+B
+int res
+
+C
+Integer res
+
+D
+Optinal<Integer> res
+
+
+C
+

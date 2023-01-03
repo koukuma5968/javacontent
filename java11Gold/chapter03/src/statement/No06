@@ -1,0 +1,24 @@
+次のプログラムの「// insert code here」に記述するコードとして、正しいものを選びなさい。（1つ選択）
+
+1.	public interface Chap3_no06_A {
+2.		// insert code here
+3.	}
+
+
+A
+private void print();
+
+B
+private int sum(int num) {
+	// do smoething
+}
+
+C
+private default void msg(String msg) {
+	// do smoething
+}
+
+D
+いずれもコンパイルエラーとなる
+
+D

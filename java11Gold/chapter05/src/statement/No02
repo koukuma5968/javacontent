@@ -1,0 +1,17 @@
+次のコードのうち正しい記述ものを選びなさい。（1つ選択）
+
+
+A
+BiConsumer<Integer, Long> bic = (i, l) -> i + l;
+
+B
+BiConsumer<Integer, Long> bic2 = (i, l) -> System.out.println(i * l);
+
+C
+BiConsumer<Integer, Long> bic2 = (i) -> i / 4;
+
+D
+BiConsumer<Integer, Long> bic2 = (l) -> System.out.println(l - 2);
+
+
+B

@@ -1,0 +1,17 @@
+java.util.function.Supplierインターフェースで宣言されている抽象メソッドとして、
+正しいものを選びなさい。型パラメータはString型とする（1つ選択）
+
+
+A
+void set("s");
+
+B
+String get();
+
+C
+String put("s");
+
+D
+void add("s");
+
+B

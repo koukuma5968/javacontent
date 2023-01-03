@@ -1,0 +1,37 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	import java.util.Scanner;
+2.
+3.	public class Chap13_no04_A {
+4.		public static void main(String[] args) {
+5.			Scanner s = new Scanner("A,B,c,D,e");
+6.			s.useDelimiter(",");
+7.			try (s) {
+8.				while (s.hasNext()) {
+9.					if(s.hasNext("[a-z]*")) {
+10.						System.out.println(s.next());
+11.					} else {
+12.						s.next();
+13.					}
+14.				}
+15.			}
+16.		}
+17.	}
+
+
+A
+「A」「B」「c」「D」「e」と表示される
+
+B
+「A」「B」「D」と表示される
+
+C
+「c」「e」と表示される
+
+D
+何も表示されない
+
+
+C
+

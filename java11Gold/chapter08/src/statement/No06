@@ -1,0 +1,19 @@
+次のコードのうち、正しく記述されているものを選びなさい。（1つ選択）
+
+
+
+A
+List.of(1,2,3).forEach(x -> System.out.println(x));
+
+B
+List.of(1,2,3).forEach(() -> System.out.println(x));
+
+C
+List.of(1,2,3).forEach(() -> return 100);
+
+D
+List.of(1,2,3).forEach((x) -> return x * 100);
+
+
+A
+

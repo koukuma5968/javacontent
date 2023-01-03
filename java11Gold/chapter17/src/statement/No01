@@ -1,0 +1,18 @@
+アノテーションの定義として、正しいものを選びなさい。（1つ選択）
+
+
+A
+public @interface Sample {}
+
+B
+public interface Sample {}
+
+C
+public @annotation Sample {}
+
+D
+public annotation Sample {}
+
+
+A
+

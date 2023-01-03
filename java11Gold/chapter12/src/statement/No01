@@ -1,0 +1,19 @@
+String型要素を扱うjava.util.List型変数「list」から並列ストリームを取得するコードとして
+正しいものを選びなさい（1つ選択）
+
+
+A
+ParallelStream<String> stream = list.parallelStream();
+
+B
+ParallelStream<String> stream = list.getParallelStream();
+
+C
+Stream<String> stream = list.getParallelStream();
+
+D
+Stream<String> stream = list.parallelStream();
+
+
+D
+

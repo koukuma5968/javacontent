@@ -1,0 +1,17 @@
+java.util.function.Predicateインターフェースで宣言されている抽象メソッドとして、
+正しいものを選びなさい。（1つ選択）
+
+A
+R apply(T t);
+
+B
+R get()
+
+C
+boolena accept();
+
+D
+void add(T t);
+
+
+A

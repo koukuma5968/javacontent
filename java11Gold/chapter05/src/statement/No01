@@ -1,0 +1,28 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	import java.util.function.Predicate;
+2.
+3.	public class Chap5_no01_A {
+4.		public static void main(String[] args) {
+5.			Predicate<String> p1 = a -> a.equals("hello");
+6.			Predicate<String> p2 = a -> a.equals("world");
+7.			System.out.println(p1.or(p2).test("hello"));
+8.		}
+9.	}
+
+
+A
+「true」と表示される
+
+B
+「false」と表示される
+
+C
+コンパイルエラーが発生する
+
+D
+実行時に例外がスローされる
+
+
+A

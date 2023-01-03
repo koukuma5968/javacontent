@@ -1,0 +1,19 @@
+プロパティファイル「sample.properties」を読み込むResourceBundleオブジェクトを取得するための
+コードとして正しいものを選びなさい。（1つ選択）
+
+
+A
+ResourceBundle resource = new ResourceBundle("sample");
+
+B
+ResourceBundle resource = new ResourceBundle("sample.properties");
+
+C
+ResourceBundle resource = ResourceBundle.getBundle("sample");
+
+D
+ResourceBundle resource = ResourceBundle.getBundle("sample.properties");
+
+
+C
+

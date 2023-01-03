@@ -1,0 +1,19 @@
+デフォルトのロケール情報を持ったLocaleクラスのインスタンスを取得できる、
+正しいものを選びなさい。（1つ選択）
+
+
+A
+Locale lo = System.getDefault();
+
+B
+Locale lo = System.locale.getDefault();
+
+C
+Locale lo = Locale.getDefault();
+
+D
+Locale lo = Locale.getInstance();
+
+
+C
+

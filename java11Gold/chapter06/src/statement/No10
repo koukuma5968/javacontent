@@ -1,0 +1,18 @@
+int型要素を扱う配列型変数「array」から作るコードとして正しいものを選びなさい（1つ選択）
+
+
+A
+Stream<Integer> stream = array.stream();
+
+B
+Stream<Integer> stream = Arrays.stream(array);
+
+C
+IntStream stream = Arrays.stream(array);
+
+D
+IntStream stream = array.stream();
+
+
+C
+

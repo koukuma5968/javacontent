@@ -1,0 +1,16 @@
+アサーションを有効にするためのコマンドとして、正しいものを選びなさい。（1つ選択）
+
+
+A
+java -assert ClassName
+
+B
+java -enable ClassName
+
+C
+java -ea ClassName
+
+D
+java -assertion ClassName
+
+C

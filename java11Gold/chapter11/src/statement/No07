@@ -1,0 +1,17 @@
+複数スレッド間で競合が発生しないよう排他制御する、キーワードとして正しいものを選びなさい（1つ選択）
+
+
+A
+synchronized
+
+B
+volatile
+
+C
+stricfp
+
+D
+transient
+
+A
+

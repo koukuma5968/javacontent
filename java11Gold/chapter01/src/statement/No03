@@ -1,0 +1,30 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Chap1_no03 {
+2.		private int num = 2;
+3.		public void cal() {
+4.			Inner i = new Inner();
+5.			i.b = 50;
+6.			i.print(num);
+7.		}
+8.
+9.		private static class Inner {
+10.			private int b;
+11.			void print(int n) {
+12.				System.out.println(b * n);
+13.			}
+14.		}
+15.	}
+
+
+A
+5行目でコンパイルエラーが発生する
+B
+「100」と表示される
+C
+実行時に例外がスローされる
+D
+6行目でコンパイルエラーが発生する
+
+B

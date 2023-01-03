@@ -1,0 +1,21 @@
+次のコードのうち正しい記述ものを選びなさい。（1つ選択）
+
+
+A
+Supplier<String> s = (val) -> System.out.println(val);
+s.get("str");
+
+B
+Supplier<String> s2 = (val) -> "s2" + val;
+System.out.println(s2.get());
+
+C
+Supplier<String> s3 = () -> "s3";
+System.out.println(s3.get());
+
+D
+Supplier<String> s4 = () -> "s4";
+System.out.println(s4.apply());
+
+
+C

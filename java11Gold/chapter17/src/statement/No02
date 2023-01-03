@@ -1,0 +1,19 @@
+独自に定義するアノテーションにString型の注釈パラメータ「test」を宣言したい。
+正しい記述を選びなさい。（1つ選択）
+
+
+A
+String test;
+
+B
+void test(String value);
+
+C
+String test();
+
+D
+@test
+
+
+C
+

@@ -1,0 +1,32 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Chap1_no07_A {
+2.		public Chap1_no07_A() {
+3.			System.out.println("A");
+4.		}
+5.	}
+
+
+1.	public class Chap1_no07_B {
+2.		public static void main(String[] args) {
+3.			var a = new Chap1_no07_A() {
+4.				public Chap1_no07_A() {
+5.					System.out.println("B");
+6.				}
+7.			};
+8.		}
+9.	}
+
+
+A
+コンパイルエラーが発生する
+B
+「B」と表示される
+C
+実行時に例外がスローされる
+D
+「A」と表示される
+
+
+A

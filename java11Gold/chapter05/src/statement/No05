@@ -1,0 +1,16 @@
+次のコードのうち正しい記述ものを選びなさい。（1つ選択）
+
+
+A
+BinaryOperator bnp = (a, b) -> a - b;
+
+B
+BinaryOperator<Integer> bnp3 = (a, b) -> a / b;
+
+C
+BinaryOperator<Integer, Integer, String> bnp2 = (a, b) -> Integer.toString(a + b);
+
+D
+BinaryOperator<Integer, String> bnp4 =  (a, b) -> (a).equals(b);
+
+B

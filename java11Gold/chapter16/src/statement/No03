@@ -1,0 +1,35 @@
+日本で日本語を使うロケール情報を構築するコードとして、
+正しいものを選びなさい。（1つ選択）
+
+
+A
+Locale lo = new Locale.Builder()
+		.setLanguage("jp")
+		.setRegion("JP")
+		.setScript("Japan")
+		.build();
+
+B
+Locale lo = new Builder()
+		.setLanguage("jp")
+		.setRegion("JP")
+		.setScript("Japan")
+		.build();
+
+C
+Locale lo = new Locale().new Builder()
+		.setLanguage("jp")
+		.setRegion("JP")
+		.setScript("Japan")
+		.build();
+
+D
+Locale lo = new Locale()
+		.setLanguage("jp")
+		.setRegion("JP")
+		.setScript("Japan")
+		.build();
+
+
+A
+

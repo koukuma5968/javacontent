@@ -1,0 +1,30 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	import java.util.Optional;
+2.
+3.	public class Chap6_no03_A {
+4.		public static void main(String[] args) {
+5.			Optional<String> smp = Optional.of("A");
+6.			System.out.print(smp.orElse("B"));
+7.		}
+8.	}
+
+
+A
+「A」と表示される
+
+B
+「B」と表示される
+
+C
+「Optional.empty」と表示される
+
+D
+実行時に例外がスローされる
+
+E
+コンパイルエラーが発生する
+
+A
+

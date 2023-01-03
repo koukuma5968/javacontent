@@ -1,0 +1,19 @@
+日本で日本語を使うロケール情報を構築するコードとして、
+適切なものを選びなさい。（1つ選択）
+
+
+A
+Locale lo = new Locale('JP');
+
+B
+Locale lo = new Locale('ja');
+
+C
+Locale lo = new Locale('JP', 'ja');
+
+D
+Locale lo = new Locale('ja', 'JP');
+
+
+D
+

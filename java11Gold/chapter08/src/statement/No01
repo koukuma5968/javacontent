@@ -1,0 +1,35 @@
+次のプログラムの「Insert code here」に入るコードとして
+正しいものを選びなさい（1つ選択）
+
+
+1.	public class Chap8_no01_A {
+2.		public static void main(String[] args) {
+3.			List<Integer> list = Arrays.asList(5,4,3,2,1);
+4.			list.stream()
+5.			//insert code here
+6.			((a, b) -> {
+7.				if (a < b) return -1;
+8.				if (b < a) return 1;
+9.				return 0;
+10.			})
+11.			.forEach(System.out::println);
+12.
+13. 	}
+14.	}
+
+
+A
+sort
+
+B
+sorting
+
+C
+sorted
+
+D
+compare
+
+
+C
+

@@ -1,0 +1,35 @@
+次のプログラムの説明として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Chap11_no01_A {
+2.		public static void main(String[] args) {
+3.			Thread t = new Thread() {
+4.				@Override
+5.				public synchronized void start() {
+6.					super.start();
+7.					System.out.println("start");
+8.				}
+9.				@Override
+10.				public void run() {
+11.					super.run();
+12.					System.out.println("run");
+13.				}
+14.			};
+15.			t.start();
+16.		}
+17.	}
+
+
+A
+「start」が表示される
+
+B
+「start」「run」が表示される
+
+C
+「run」「start」が表示される
+
+D
+実行時に例外が発生する。
+
+B

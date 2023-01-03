@@ -1,0 +1,21 @@
+次のコードのうち正しい記述ものを選びなさい。（1つ選択）
+
+
+A
+Consumer<String> c = v -> System.out.println(v);
+c.accept("str");
+
+B
+Consumer<String> c2 = s -> "c2" + s;
+System.out.println(c2.accept("val"));
+
+C
+Consumer<String> c3 = () -> "c3";
+System.out.println(c3.accept());
+
+D
+Consumer<String> c4 = () -> System.out.println("z");;
+c4.accept();
+
+
+A

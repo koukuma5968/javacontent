@@ -1,0 +1,17 @@
+java.util.function.Supplierインターフェースで宣言されている抽象メソッドとして、
+正しいものを選びなさい。型パラメータはInteger型とする（1つ選択）
+
+
+A
+void accept(int i);
+
+B
+Integer get();
+
+C
+Integer aplly(Integer int);
+
+D
+void add(int i);
+
+A

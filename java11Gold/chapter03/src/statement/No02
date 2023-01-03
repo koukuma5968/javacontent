@@ -1,0 +1,32 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+1.	public interface Chap3_no02_A {
+2.		static void print() {
+3.			System.out.println("inter");
+4.		}
+5.	}
+
+
+1.	public class Chap3_no02_B implements Chap3_no02_A {
+2.		public static void print() {
+3.			System.out.println("class");
+4.		}
+5.		public static void main(String[] args) {
+6.			Chap3_no02_A.print();
+7.		}
+8.	}
+
+
+A
+「inter」と表示される
+
+B
+「class」と表示される
+
+C
+コンパイルエラーが発生する。
+
+D
+実行時に例外がスローされる
+
+A

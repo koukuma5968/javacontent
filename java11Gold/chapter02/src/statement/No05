@@ -1,0 +1,53 @@
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい。（1つ選択）
+
+
+1.	public class Chap2_no05_A implements AutoCloseable {
+2.		@Override
+3.		public void close() throws Exception {
+4.			System.out.println("A");
+5.		}
+6.	}
+
+1.	public class Chap2_no05_B implements Closeable {
+2.		@Override
+3.		public void close() {
+4.			System.out.println("B");
+5.		}
+6.	}
+
+1.	public class Chap2_no05_C implements AutoCloseable {
+2.		@Override
+3.		public void close() throws Exception {
+4.			System.out.println("C");
+5.		}
+6.	}
+
+1.	public class Chap2_no05_M {
+2.		public static void main(String[] args) {
+3.			Chap2_no05_A a = new Chap2_no05_A();
+4.			try {
+5.				Chap2_no05_C c = new Chap2_no05_C();
+6.				try (a;
+7.					Chap2_no05_B b = new Chap2_no05_B();
+8.					c;) {
+9.				}
+10.			} catch (Exception e) {
+11.				e.printStackTrace();
+12.			}
+13.		}
+14.	}
+
+
+A
+「A」「B」「C」と表示される
+
+B
+「C」「B」「A」と表示される
+
+C
+「B」「C」「A」と表示される
+
+D
+「C」「A」「B」と表示される
+
+B

@@ -1,0 +1,25 @@
+プロパティファイルの値の一覧を表示するコードとして、
+正しいものを選びなさい。（2つ選択）
+
+
+A
+Set Keys = prop.keySet();
+for (Object key : Keys) {
+	System.out.println(prop.getProperty(key));
+}
+
+B
+Set Keys = prop.keySet();
+for (Object key : Keys) {
+	System.out.println(prop.get(key));
+}
+
+C
+prop.forEach((k, v) -> System.out.println(v));
+
+D
+prop.forEach((v) -> System.out.println(v));
+
+
+B,C
+
