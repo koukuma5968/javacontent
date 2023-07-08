@@ -37,7 +37,7 @@ public class SeleniumDriverMain {
     private static void setSystemProperty() {
         // システムプロパティにedgeDriverのバスを登録します。
         System.setProperty(EdgeDriverService.EDGE_DRIVER_EXE_PROPERTY,
-                ROOT_DIR  + "\\msedgedriver.exe");
+                ROOT_DIR  + "\\etc\\msedgedriver.exe");
     }
 
 }
